@@ -1,42 +1,35 @@
+class SurvivalPlanner:
+    NEEDS_HIERARCHY = [
+        "evade_threats",
+        "acquire_food",
+        "secure_shelter",
+        "mine_resources",
+        "explore_environment"
+    ]
 
-import json
-import os
+    def __init__(self):
+        self.last_health = 20
+        self.last_hunger = 20
 
-# === SUGGESTION FUNCTION ===
-def suggest_goal(scene_info):
-    try:
-        observations = []
+    def choose_goal(self, state):
+        # Threat detection
+        threats = ["creeper", "zombie", "skeleton", "spider"]
+        if any(d["label"] in threats for d in state.get("detections", [])):
+            return "evade_threats"
 
-        if "entities" in scene_info:
-            observations += [f"I see {e['label']}" for e in scene_info["entities"]]
+        # Health priority
+        if state.get("health", 20) < 10:
+            return "heal"
 
-        if "items" in scene_info:
-            observations += [f"I see item {i['label']}" for i in scene_info["items"]]
+        # Hunger management
+        if state.get("hunger", 20) < 8:
+            return "acquire_food"
 
-        if "blocks" in scene_info:
-            observations += [f"Nearby block: {b['label']}" for b in scene_info["blocks"]]
-
-        context = " ".join(observations)
-        print(f"🧭 Scene Summary: {context}")
-
-        return parse_tip_to_goal(context)
-
-    except Exception as e:
-        print(f"❌ Error suggesting goal: {e}")
-        return None
-
-# === PARSER ===
-def parse_tip_to_goal(tip_text):
-    if "wood" in tip_text.lower() or "tree" in tip_text.lower():
-        return "gather_wood"
-    elif "shelter" in tip_text.lower():
-        return "build_shelter"
-    elif "explore" in tip_text.lower():
-        return "explore_area"
-    elif "food" in tip_text.lower() or "animal" in tip_text.lower():
-        return "collect_food"
-    elif "craft" in tip_text.lower():
-        return "craft_pickaxe"
-    elif "furnace" in tip_text.lower():
-        return "make_furnace"
-    return None
+        # Progressive goals
+        inventory = state.get("inventory", [])
+        if "wood" not in inventory:
+            return "mine_resources"
+        if "bed" not in inventory:
+            return "secure_shelter"
+            
+        return "explore_environment"
