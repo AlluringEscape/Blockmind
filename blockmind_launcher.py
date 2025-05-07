@@ -1,5 +1,6 @@
 
 # blockmind_launcher.py
+import time
 import cv2
 from blockmind_window_capture import capture_game_window
 from blockmind_vision import analyze_frame
@@ -20,12 +21,8 @@ def main():
             frame = capture_game_window()
             result = analyze_frame(frame)
 
-            if isinstance(result, dict):
-                detections = result.get("detections", [])
-                crosshair_rgb = result.get("crosshair_rgb", None)
-            else:
-                detections = []
-                crosshair_rgb = None
+            detections = result.get("detections", [])
+            crosshair_rgb = result.get("crosshair_rgb", None)
 
             frame = draw_detections(frame, detections)
 
@@ -36,6 +33,8 @@ def main():
             cv2.imshow("Blockmind Sees", frame)
             if cv2.waitKey(1) & 0xFF == ord("q"):
                 break
+
+            time.sleep(0.1)  # Throttle loop
 
         except Exception as e:
             print(f"❌ Error: {e}")

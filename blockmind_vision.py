@@ -1,3 +1,4 @@
+
 import cv2
 import numpy as np
 from blockmind_window_capture import capture_game_window
@@ -9,14 +10,13 @@ def analyze_frame(frame=None):
 
     if frame is None:
         print("❌ No game window captured.")
-        return None
-
-    # === Debug View ===
-    cv2.imshow("🧠 Blockmind Vision Debug", frame)
-    cv2.waitKey(1)
+        return {}
 
     # === Placeholder for processing logic ===
-    # This is where your detection logic (blocks, entities, HUD, etc.) would go
-    print("👁️ Frame captured and displayed.")
+    print("👁️ Frame captured and processed.")
 
-    return frame
+    # Return dummy detection results for now
+    return {
+        "detections": [],
+        "crosshair_rgb": None
+    }
