@@ -79,4 +79,32 @@ def analyze_frame(frame):
             "color": center_color
         })
 
+    
+    # === High-level summary detection ===
+    summary = {
+        "tree": False,
+        "cave": False,
+        "animal": False,
+        "flower": False,
+        "sky": False
+    }
+
+    for entity in scene["entities"]:
+        if "sheep" in entity["label"] or "cow" in entity["label"] or "pig" in entity["label"]:
+            summary["animal"] = True
+
+    for block in scene["blocks"]:
+        if "log" in block["label"] or "wood" in block["label"]:
+            summary["tree"] = True
+        if "flower" in block["label"]:
+            summary["flower"] = True
+        if "stone" in block["label"] and block["position"][1] > h * 0.5:
+            summary["cave"] = True
+
+    avg_top_brightness = np.mean(frame[0:int(h*0.2), :, :])
+    if avg_top_brightness > 60:
+        summary["sky"] = True
+
+    scene["summary"] = summary
+
     return scene
