@@ -1,6 +1,7 @@
 import time
 import threading
 import cv2
+import numpy as np
 from blockmind_window_capture import ThreadSafeCapturer
 from blockmind_vision import process_frame
 
@@ -11,45 +12,39 @@ class VisionCore:
         self.current_frame = None
         
     def capture_loop(self):
-        print("🔄 Capture loop started")
         while self.running:
-            start = time.perf_counter()
             frame = self.capturer.capture_frame()
-            
             if frame is not None:
-                print(f"🎮 New frame captured: {frame.shape}")
                 self.current_frame = process_frame(frame)
-                
-            sleep_time = max(1/60 - (time.perf_counter() - start), 0)
-            time.sleep(sleep_time)
+            time.sleep(1/60)
 
 def main():
     core = VisionCore()
     capture_thread = threading.Thread(target=core.capture_loop)
     capture_thread.start()
     
+    # Force create window first
+    cv2.namedWindow("Debug View", cv2.WINDOW_NORMAL)
+    cv2.resizeWindow("Debug View", 1280, 720)
+    cv2.moveWindow("Debug View", 100, 100)
+    
     try:
-        print("""
-        🔧 Debug Checklist:
-        1. Minecraft window visible and not minimized
-        2. Game in 3rd person view (F5 twice)
-        3. FOV set to Normal (Options > Video Settings)
-        4. Standing near trees/stone
-        """)
-        
         while True:
-            if core.current_frame:
-                # Corrected print statement
-                print(f"🌳 Detected: {len(core.current_frame['detections'])} objects")
-        
-                if core.current_frame['debug_frame'] is not None:
-                    cv2.imshow('Debug View', core.current_frame['debug_frame'])
-                    if cv2.waitKey(1) & 0xFF == ord('q'):
-                        break
-            time.sleep(0.1)
+            debug_frame = None
             
-    except KeyboardInterrupt:
-        pass
+            if core.current_frame and core.current_frame["debug_frame"] is not None:
+                debug_frame = core.current_frame["debug_frame"]
+            else:
+                debug_frame = np.zeros((720, 1280, 3), dtype=np.uint8)
+            
+            # Force window update
+            cv2.imshow("Debug View", debug_frame)
+            key = cv2.waitKey(1)
+            
+            # Exit on Q press
+            if key == ord('q'):
+                break
+            
     finally:
         core.running = False
         capture_thread.join()
