@@ -1179,3 +1179,284 @@ public class SurvivalGoalGenerator {
 ```
 
 By implementing these systems and adding fallback logic, you can improve scene understanding and handle situations where the goal detector cannot detect a goal.
+
+[PROBLEM]: No survival goal detected. Need better scene understanding or fallback logic.
+[SOLUTION]: To improve scene understanding and add fallback logic for the "no survival goal detected" issue, you can implement the following:
+
+**1. Add a Block Detection System**
+
+Implement a block detection system that detects the types of blocks in the player's vicinity.
+
+```java
+// BlockDetector.java
+
+public class BlockDetector {
+    private Player player;
+
+    public BlockDetector(Player player) {
+        this.player = player;
+    }
+
+    public List<Block> getBlocks() {
+        // Get the blocks within a certain distance of the player
+        return new BlockFinder().findBlocks(player.getPosition());
+    }
+}
+```
+
+**2. Update the Goal Detector**
+
+Update the goal detector to use the new system.
+
+```java
+// GoalDetector.java
+
+public class GoalDetector {
+    private Player player;
+    private BlockDetector blockDetector;
+
+    public GoalDetector(Player player, BlockDetector blockDetector) {
+        this.player = player;
+        this.blockDetector = blockDetector;
+    }
+
+    public SurvivalGoal detectGoal() {
+        // Check the types of blocks and set a goal accordingly
+        List<Block> blocks = blockDetector.getBlocks();
+        if (blocks.contains(BlockType.OBSIDIAN)) {
+            return SurvivalGoal.COLLECT_OBSIDIAN;
+        } else if (blocks.contains(BlockType.DIAMOND)) {
+            return SurvivalGoal.GATHER_DIAMONDS;
+        } else {
+            // If no specific blocks are detected, generate a random goal
+            return new SurvivalGoalGenerator().generateRandomGoal();
+        }
+    }
+}
+```
+
+**3. Add Fallback Logic**
+
+Add fallback logic to handle situations where the goal detector cannot detect a goal.
+
+```java
+// GoalDetector.java
+
+public class GoalDetector {
+    // ...
+
+    public SurvivalGoal getFallbackGoal() {
+        // Return a fallback goal if no goal can be detected
+        return SurvivalGoal.GENERATE_RANDOM_GOAL;
+    }
+}
+```
+
+**4. Implement a Resource Availability System**
+
+Implement a resource availability system that detects the resources available in the player's vicinity.
+
+```java
+// ResourceAvailabilitySystem.java
+
+public class ResourceAvailabilitySystem {
+    private Player player;
+
+    public ResourceAvailabilitySystem(Player player) {
+        this.player = player;
+    }
+
+    public boolean hasResourcesAvailable() {
+        // Check if there are resources within a certain distance of the player
+        return new ResourceFinder().findResources(player.getPosition());
+    }
+}
+```
+
+**5. Update the Goal Detector**
+
+Update the goal detector to use the new system.
+
+```java
+// GoalDetector.java
+
+public class GoalDetector {
+    private Player player;
+    private BlockDetector blockDetector;
+    private ResourceAvailabilitySystem resourceAvailabilitySystem;
+
+    public GoalDetector(Player player, BlockDetector blockDetector, ResourceAvailabilitySystem resourceAvailabilitySystem) {
+        this.player = player;
+        this.blockDetector = blockDetector;
+        this.resourceAvailabilitySystem = resourceAvailabilitySystem;
+    }
+
+    public SurvivalGoal detectGoal() {
+        // Check the types of blocks and set a goal accordingly
+        List<Block> blocks = blockDetector.getBlocks();
+        if (blocks.contains(BlockType.OBSIDIAN)) {
+            return SurvivalGoal.COLLECT_OBSIDIAN;
+        } else if (blocks.contains(BlockType.DIAMOND)) {
+            return SurvivalGoal.GATHER_DIAMONDS;
+        } else {
+            // If no specific blocks are detected, check resource availability and set a goal accordingly
+            if (resourceAvailabilitySystem.hasResourcesAvailable()) {
+                return SurvivalGoal.GATHER_RESOURCES;
+            } else {
+                // If no resources are available, generate a random goal
+                return new SurvivalGoalGenerator().generateRandomGoal();
+            }
+        }
+    }
+}
+```
+
+By implementing these systems and adding fallback logic, you can improve scene understanding and handle situations where the goal detector cannot detect a goal.
+
+[PROBLEM]: No survival goal detected. Need better scene understanding or fallback logic.
+[SOLUTION]: To improve scene understanding and add fallback logic for the "no survival goal detected" issue, you can implement the following:
+
+**1. Add a Mob Detection System**
+
+Implement a mob detection system that detects the types of mobs in the player's vicinity.
+
+```java
+// MobDetector.java
+
+public class MobDetector {
+    private Player player;
+
+    public MobDetector(Player player) {
+        this.player = player;
+    }
+
+    public List<Mob> getMobs() {
+        // Get the mobs within a certain distance of the player
+        return new MobFinder().findMobs(player.getPosition());
+    }
+}
+```
+
+**2. Update the Goal Detector**
+
+Update the goal detector to use the new system.
+
+```java
+// GoalDetector.java
+
+public class GoalDetector {
+    private Player player;
+    private MobDetector mobDetector;
+
+    public GoalDetector(Player player, MobDetector mobDetector) {
+        this.player = player;
+        this.mobDetector = mobDetector;
+    }
+
+    public SurvivalGoal detectGoal() {
+        // Check the types of mobs and set a goal accordingly
+        List<Mob> mobs = mobDetector.getMobs();
+        if (mobs.contains(MobType.CREATURE)) {
+            return SurvivalGoal.FIGHT_CREATURES;
+        } else if (mobs.contains(MobType.MAGNIFYING_Glass)) {
+            return SurvivalGoal.COLLECT_MAGNIFYING_GLASS;
+        } else {
+            // If no specific mobs are detected, generate a random goal
+            return new SurvivalGoalGenerator().generateRandomGoal();
+        }
+    }
+}
+```
+
+**3. Add Fallback Logic**
+
+Add fallback logic to handle situations where the goal detector cannot detect a goal.
+
+```java
+// GoalDetector.java
+
+public class GoalDetector {
+    // ...
+
+    public SurvivalGoal getFallbackGoal() {
+        // Return a fallback goal if no goal can be detected
+        return SurvivalGoal.GENERATE_RANDOM_GOAL;
+    }
+}
+```
+
+**4. Implement a Resource Availability System**
+
+Implement a resource availability system that detects the resources available in the player's vicinity.
+
+```java
+// ResourceAvailabilitySystem.java
+
+public class ResourceAvailabilitySystem {
+    private Player player;
+
+    public ResourceAvailabilitySystem(Player player) {
+        this.player = player;
+    }
+
+    public boolean hasResourcesAvailable() {
+        // Check if there are resources within a certain distance of the player
+        return new ResourceFinder().findResources(player.getPosition());
+    }
+}
+```
+
+**5. Update the Goal Detector**
+
+Update the goal detector to use the new system.
+
+```java
+// GoalDetector.java
+
+public class GoalDetector {
+    private Player player;
+    private MobDetector mobDetector;
+    private ResourceAvailabilitySystem resourceAvailabilitySystem;
+
+    public GoalDetector(Player player, MobDetector mobDetector, ResourceAvailabilitySystem resourceAvailabilitySystem) {
+        this.player = player;
+        this.mobDetector = mobDetector;
+        this.resourceAvailabilitySystem = resourceAvailabilitySystem;
+    }
+
+    public SurvivalGoal detectGoal() {
+        // Check the types of mobs and set a goal accordingly
+        List<Mob> mobs = mobDetector.getMobs();
+        if (mobs.contains(MobType.CREATURE)) {
+            return SurvivalGoal.FIGHT_CREATURES;
+        } else if (mobs.contains(MobType.MAGNIFYING_Glass)) {
+            return SurvivalGoal.COLLECT_MAGNIFYING_GLASS;
+        } else {
+            // If no specific mobs are detected, check resource availability and set a goal accordingly
+            if (resourceAvailabilitySystem.hasResourcesAvailable()) {
+                return SurvivalGoal.GATHER_RESOURCES;
+            } else {
+                // If no resources are available, generate a random goal
+                return new SurvivalGoalGenerator().generateRandomGoal();
+            }
+        }
+    }
+}
+```
+
+**6. Implement a Random Goal Generator**
+
+Implement a random goal generator that generates a random survival goal.
+
+```java
+// SurvivalGoalGenerator.java
+
+public class SurvivalGoalGenerator {
+    public SurvivalGoal generateRandomGoal() {
+        // Generate a random survival goal
+        return new SurvivalGoal(RandomUtils.getRandomNumber(0, 100));
+    }
+}
+```
+
+By implementing these systems and adding fallback logic, you can improve scene understanding and handle situations where the goal detector cannot detect a goal.
