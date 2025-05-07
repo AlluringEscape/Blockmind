@@ -83,6 +83,7 @@ def analyze_frame(frame):
     # === High-level summary detection ===
     summary = {
         "tree": False,
+        "tree_aliases": ["tree", "log", "wood", "tree_center_pixel"],
         "cave": False,
         "animal": False,
         "flower": False,
@@ -94,6 +95,8 @@ def analyze_frame(frame):
             summary["animal"] = True
 
     for block in scene["blocks"]:
+        if any(alias in block["label"].lower() for alias in summary["tree_aliases"]):
+            summary["tree"] = True
         if "log" in block["label"] or "wood" in block["label"]:
             summary["tree"] = True
         if "flower" in block["label"]:
@@ -105,6 +108,7 @@ def analyze_frame(frame):
     if avg_top_brightness > 60:
         summary["sky"] = True
 
+    del summary["tree_aliases"]
     scene["summary"] = summary
 
     return scene
