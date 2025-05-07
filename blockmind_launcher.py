@@ -27,6 +27,7 @@ def main():
             frame = draw_detections(frame, detections)
 
             if crosshair_rgb:
+                print(f"🎯 Crosshair RGB: {crosshair_rgb}")
                 cv2.putText(frame, f"Crosshair RGB: {crosshair_rgb}", (10, 20),
                             cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
 
