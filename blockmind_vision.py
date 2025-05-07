@@ -1,4 +1,3 @@
-
 import cv2
 import numpy as np
 from ultralytics import YOLO
@@ -82,10 +81,7 @@ def analyze_frame(frame):
     
     # === High-level summary detection ===
     summary = {
-        "entity_aliases": ["sheep", "cow", "pig", "chicken"],
-        "flower_colors": [(140, 0, 140), (255, 255, 255), (255, 0, 0)],
         "tree": False,
-        "tree_aliases": ["tree", "log", "wood", "tree_center_pixel"],
         "cave": False,
         "animal": False,
         "flower": False,
@@ -93,18 +89,10 @@ def analyze_frame(frame):
     }
 
     for entity in scene["entities"]:
-        if any(alias in entity["label"].lower() for alias in summary["entity_aliases"]):
-            summary["animal"] = True
         if "sheep" in entity["label"] or "cow" in entity["label"] or "pig" in entity["label"]:
             summary["animal"] = True
 
     for block in scene["blocks"]:
-        avg_color = np.array(block["color"])
-        for flower_color in summary["flower_colors"]:
-            if np.linalg.norm(avg_color - np.array(flower_color)) < 50:
-                summary["flower"] = True
-        if any(alias in block["label"].lower() for alias in summary["tree_aliases"]):
-            summary["tree"] = True
         if "log" in block["label"] or "wood" in block["label"]:
             summary["tree"] = True
         if "flower" in block["label"]:
@@ -116,10 +104,15 @@ def analyze_frame(frame):
     if avg_top_brightness > 60:
         summary["sky"] = True
 
-    del summary["tree_aliases"]
-    for k in ["tree_aliases", "entity_aliases", "flower_colors"]:
-        if k in summary:
-            del summary[k]
     scene["summary"] = summary
 
     return scene
+
+# Add this function near the end of blockmind_vision.py
+latest_detections = {}
+
+def save_latest_detection(label, bbox):
+    latest_detections[label] = {'bbox': bbox}
+
+def get_latest_detection(label):
+    return latest_detections.get(label)
