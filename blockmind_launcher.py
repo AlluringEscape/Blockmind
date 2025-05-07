@@ -1,42 +1,47 @@
 from blockmind_window_capture import capture_game_window
-from blockmind_vision import analyze_frame
+from blockmind_vision import detect_objects
 from blockmind_brain import BlockmindBrain
 from blockmind_actions import ActionHandler
 from survival_brain import SurvivalPlanner
 import time
 
-def main():
-    brain = BlockmindBrain()
-    actions = ActionHandler()
-    survival = SurvivalPlanner()
-    
-    while True:
-        # Perception
-        frame, region = capture_game_window()
-        if frame is None:
-            time.sleep(2)
-            continue
-            
-        state = analyze_frame(frame)
-        state.update({
-            "region": region,
-            "timestamp": time.time()
-        })
-
-        # Cognition
-        goal = survival.choose_goal(state)
-        possible_actions = self.get_possible_actions(goal)
-        action = brain.choose_action(state, possible_actions)
-
-        # Action
-        result = actions.execute(action)
+class BlockmindCore:
+    def __init__(self):
+        self.brain = BlockmindBrain()
+        self.actions = ActionHandler()
+        self.survival = SurvivalPlanner()
+        self.inventory = []
         
-        # Learning
-        next_state = analyze_frame(capture_game_window()[0])
-        reward = self.calculate_reward(state, action, result)
-        brain.update_q_values(state, action, reward, next_state)
-
-        time.sleep(0.3)
+    def run(self):
+        while True:
+            # Capture game state
+            frame, region = capture_game_window()
+            if frame is None:
+                time.sleep(1)
+                continue
+                
+            # Analyze environment
+            vision_data = detect_objects(frame)
+            game_state = {
+                "detections": vision_data["detections"],
+                "inventory": self.inventory
+            }
+            
+            # Make decisions
+            goal = self.survival.choose_goal(game_state)
+            self.brain.update_goal(goal)
+            action = self.brain.decide_action(game_state)
+            
+            # Execute action
+            result = self.actions.execute(action)
+            print(f"Performed {action}: {result}")
+            
+            # Update inventory
+            if result.get("item"):
+                self.inventory.append(result["item"])
+            
+            time.sleep(0.5)
 
 if __name__ == "__main__":
-    main()
+    bot = BlockmindCore()
+    bot.run()

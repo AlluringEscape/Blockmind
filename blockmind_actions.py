@@ -4,32 +4,29 @@ from pynput import keyboard
 
 class ActionHandler:
     def __init__(self):
-        self.controller = keyboard.Controller()
-        self.action_map = {
-            "move": self.move,
-            "mine": self.mine,
-            "craft": self.craft,
-            "evade": self.evade,
-            "collect": self.collect
-        }
-
+        self.keyboard = keyboard.Controller()
+        self.mouse = pyautogui
+        
     def execute(self, action):
-        return self.action_map[action["type"]](**action["params"])
-
-    def move(self, direction, duration=1.0):
-        self.controller.press(direction)
-        time.sleep(duration)
-        self.controller.release(direction)
-        return {"status": "success", "distance": duration*4}
-
+        action_type = action.get("type")
+        
+        if action_type == "mine":
+            return self.mine(action.get("target"))
+        elif action_type == "explore":
+            return self.move_random()
+        return {"status": "unknown_action"}
+    
     def mine(self, target):
+        # Calculate mining time based on target
+        duration = 2.0 if target == "tree" else 3.0
         pyautogui.mouseDown(button='left')
-        time.sleep(1.5 if target == "wood" else 3.0)
+        time.sleep(duration)
         pyautogui.mouseUp()
-        return {"status": "success", "item": target}
-
-    def craft(self, item):
-        pyautogui.press('e')
-        time.sleep(0.5)
-        # Add crafting logic based on item
-        return {"status": "crafted", "item": item}
+        return {"status": "mined", "item": target}
+    
+    def move_random(self):
+        directions = ['w', 'a', 's', 'd']
+        self.keyboard.press(random.choice(directions))
+        time.sleep(1.0)
+        self.keyboard.release(random.choice(directions))
+        return {"status": "moved"}

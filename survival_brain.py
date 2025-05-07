@@ -1,35 +1,16 @@
 class SurvivalPlanner:
-    NEEDS_HIERARCHY = [
-        "evade_threats",
-        "acquire_food",
-        "secure_shelter",
-        "mine_resources",
-        "explore_environment"
-    ]
-
     def __init__(self):
-        self.last_health = 20
-        self.last_hunger = 20
-
+        self.current_stage = 1  # 1: Wood, 2: Stone, 3: Shelter
+        
     def choose_goal(self, state):
-        # Threat detection
-        threats = ["creeper", "zombie", "skeleton", "spider"]
-        if any(d["label"] in threats for d in state.get("detections", [])):
-            return "evade_threats"
-
-        # Health priority
-        if state.get("health", 20) < 10:
-            return "heal"
-
-        # Hunger management
-        if state.get("hunger", 20) < 8:
-            return "acquire_food"
-
-        # Progressive goals
         inventory = state.get("inventory", [])
-        if "wood" not in inventory:
-            return "mine_resources"
-        if "bed" not in inventory:
-            return "secure_shelter"
-            
-        return "explore_environment"
+        
+        # Progressive survival stages
+        if self.current_stage == 1 and "wood" not in inventory:
+            return "gather_wood"
+        elif self.current_stage == 2 and "stone" not in inventory:
+            return "mine_stone"
+        return "explore"
+    
+    def update_stage(self, new_stage):
+        self.current_stage = new_stage
