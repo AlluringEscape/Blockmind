@@ -117,9 +117,9 @@ def analyze_frame(frame):
         summary["sky"] = True
 
     del summary["tree_aliases"]
-    del summary["tree_aliases"]
-    del summary["entity_aliases"]
-    del summary["flower_colors"]
+    for k in ["tree_aliases", "entity_aliases", "flower_colors"]:
+        if k in summary:
+            del summary[k]
     scene["summary"] = summary
 
     return scene
