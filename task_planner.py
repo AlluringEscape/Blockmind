@@ -4,6 +4,20 @@ class TaskPlanner:
         self.goal = None
         self.task_list = []
 
+
+    def choose_goal(self, scene):
+        summary = scene.get("summary", {})
+        if summary.get("tree"):
+            return "gather_wood"
+        elif summary.get("animal"):
+            return "collect_food"
+        elif summary.get("cave"):
+            return "mine_stone"
+        elif summary.get("sky"):
+            return "survive_night"
+        return None
+
+
     def set_goal(self, goal):
         self.goal = goal
         self.task_list = self.plan_steps(goal)
