@@ -1,3 +1,4 @@
+
 # blockmind_launcher.py
 import cv2
 from blockmind_window_capture import capture_game_window
@@ -13,14 +14,18 @@ def draw_detections(frame, detections):
     return frame
 
 def main():
-    print("🧠 Blockmind Vision Debug Mode (Press 'q' to quit)")
+    print("🧠 Blockmind Vision Debug Mode (Press 'q' to quit')")
     while True:
         try:
             frame = capture_game_window()
             result = analyze_frame(frame)
 
-            detections = result.get("detections", [])
-            crosshair_rgb = result.get("crosshair_rgb", None)
+            if isinstance(result, dict):
+                detections = result.get("detections", [])
+                crosshair_rgb = result.get("crosshair_rgb", None)
+            else:
+                detections = []
+                crosshair_rgb = None
 
             frame = draw_detections(frame, detections)
 
