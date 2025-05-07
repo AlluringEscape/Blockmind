@@ -1,6 +1,13 @@
 import argparse
 import json
 from blockmind_brain import BlockmindBrain
+from overlay_window import run_overlay
+import threading
+
+overlay_thread = threading.Thread(target=run_overlay, daemon=True)
+overlay_thread.start()
+
+
 
 def load_profile(file_path):
     with open(file_path, "r") as f:
