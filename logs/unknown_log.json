@@ -1,0 +1,7124 @@
+[
+  {
+    "timestamp": "2025-05-07T12:12:50.119931",
+    "file": "20250507_121250.png",
+    "detections": [
+      {
+        "label": "frisbee",
+        "confidence": 0.31,
+        "box": [
+          1739,
+          350,
+          1993,
+          482
+        ]
+      },
+      {
+        "label": "frisbee",
+        "confidence": 0.27,
+        "box": [
+          1421,
+          641,
+          1572,
+          681
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:12:50.526363",
+    "file": "20250507_121250.png",
+    "detections": [
+      {
+        "label": "frisbee",
+        "confidence": 0.37,
+        "box": [
+          1739,
+          350,
+          1993,
+          482
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:12:50.939537",
+    "file": "20250507_121250.png",
+    "detections": [
+      {
+        "label": "frisbee",
+        "confidence": 0.37,
+        "box": [
+          1739,
+          350,
+          1992,
+          483
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:12:52.068140",
+    "file": "20250507_121252.png",
+    "detections": [
+      {
+        "label": "airplane",
+        "confidence": 0.27,
+        "box": [
+          1931,
+          338,
+          2298,
+          550
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:12:52.479705",
+    "file": "20250507_121252.png",
+    "detections": [
+      {
+        "label": "bird",
+        "confidence": 0.39,
+        "box": [
+          1050,
+          643,
+          1311,
+          733
+        ]
+      },
+      {
+        "label": "frisbee",
+        "confidence": 0.31,
+        "box": [
+          2347,
+          608,
+          2494,
+          664
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:12:55.706444",
+    "file": "20250507_121255.png",
+    "detections": [
+      {
+        "label": "airplane",
+        "confidence": 0.34,
+        "box": [
+          927,
+          295,
+          1189,
+          398
+        ]
+      },
+      {
+        "label": "bird",
+        "confidence": 0.27,
+        "box": [
+          261,
+          277,
+          685,
+          422
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:12:56.138435",
+    "file": "20250507_121256.png",
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.48,
+        "box": [
+          1137,
+          606,
+          1178,
+          701
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.42,
+        "box": [
+          2090,
+          254,
+          2451,
+          380
+        ]
+      },
+      {
+        "label": "cow",
+        "confidence": 0.3,
+        "box": [
+          1704,
+          672,
+          1779,
+          709
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.27,
+        "box": [
+          695,
+          284,
+          952,
+          334
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.26,
+        "box": [
+          1562,
+          231,
+          1670,
+          281
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:12:56.563791",
+    "file": "20250507_121256.png",
+    "detections": [
+      {
+        "label": "airplane",
+        "confidence": 0.65,
+        "box": [
+          631,
+          398,
+          876,
+          453
+        ]
+      },
+      {
+        "label": "airplane",
+        "confidence": 0.65,
+        "box": [
+          999,
+          303,
+          1337,
+          417
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:12:56.994292",
+    "file": "20250507_121256.png",
+    "detections": [
+      {
+        "label": "airplane",
+        "confidence": 0.71,
+        "box": [
+          813,
+          345,
+          1172,
+          469
+        ]
+      },
+      {
+        "label": "airplane",
+        "confidence": 0.62,
+        "box": [
+          384,
+          412,
+          669,
+          479
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:12:57.419440",
+    "file": "20250507_121257.png",
+    "detections": [
+      {
+        "label": "airplane",
+        "confidence": 0.55,
+        "box": [
+          833,
+          338,
+          1186,
+          465
+        ]
+      },
+      {
+        "label": "airplane",
+        "confidence": 0.46,
+        "box": [
+          400,
+          411,
+          686,
+          472
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:12:57.854112",
+    "file": "20250507_121257.png",
+    "detections": [
+      {
+        "label": "airplane",
+        "confidence": 0.54,
+        "box": [
+          833,
+          338,
+          1186,
+          465
+        ]
+      },
+      {
+        "label": "airplane",
+        "confidence": 0.49,
+        "box": [
+          400,
+          411,
+          686,
+          472
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:12:58.288664",
+    "file": "20250507_121258.png",
+    "detections": [
+      {
+        "label": "airplane",
+        "confidence": 0.54,
+        "box": [
+          834,
+          338,
+          1187,
+          465
+        ]
+      },
+      {
+        "label": "airplane",
+        "confidence": 0.48,
+        "box": [
+          400,
+          411,
+          686,
+          472
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:12:58.730018",
+    "file": "20250507_121258.png",
+    "detections": [
+      {
+        "label": "airplane",
+        "confidence": 0.57,
+        "box": [
+          818,
+          316,
+          1178,
+          437
+        ]
+      },
+      {
+        "label": "airplane",
+        "confidence": 0.55,
+        "box": [
+          388,
+          386,
+          675,
+          458
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:12:59.171816",
+    "file": "20250507_121259.png",
+    "detections": [
+      {
+        "label": "airplane",
+        "confidence": 0.66,
+        "box": [
+          775,
+          262,
+          1143,
+          377
+        ]
+      },
+      {
+        "label": "airplane",
+        "confidence": 0.35,
+        "box": [
+          323,
+          334,
+          625,
+          407
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:12:59.596156",
+    "file": "20250507_121259.png",
+    "detections": [
+      {
+        "label": "airplane",
+        "confidence": 0.74,
+        "box": [
+          767,
+          262,
+          1139,
+          395
+        ]
+      },
+      {
+        "label": "airplane",
+        "confidence": 0.35,
+        "box": [
+          303,
+          332,
+          620,
+          403
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:00.022575",
+    "file": "20250507_121259.png",
+    "detections": [
+      {
+        "label": "airplane",
+        "confidence": 0.74,
+        "box": [
+          801,
+          264,
+          1167,
+          400
+        ]
+      },
+      {
+        "label": "airplane",
+        "confidence": 0.27,
+        "box": [
+          356,
+          339,
+          652,
+          406
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:00.466928",
+    "file": "20250507_121300.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.37,
+        "box": [
+          866,
+          326,
+          976,
+          375
+        ]
+      },
+      {
+        "label": "airplane",
+        "confidence": 0.36,
+        "box": [
+          1615,
+          297,
+          2032,
+          412
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.35,
+        "box": [
+          341,
+          318,
+          535,
+          373
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.31,
+        "box": [
+          864,
+          314,
+          1052,
+          371
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:02.469180",
+    "file": "20250507_121302.png",
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.39,
+        "box": [
+          1265,
+          624,
+          1310,
+          718
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:02.887288",
+    "file": "20250507_121302.png",
+    "detections": [
+      {
+        "label": "cow",
+        "confidence": 0.35,
+        "box": [
+          1290,
+          745,
+          1386,
+          776
+        ]
+      },
+      {
+        "label": "person",
+        "confidence": 0.26,
+        "box": [
+          1256,
+          629,
+          1302,
+          721
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:03.322713",
+    "file": "20250507_121303.png",
+    "detections": [
+      {
+        "label": "cow",
+        "confidence": 0.35,
+        "box": [
+          1290,
+          745,
+          1386,
+          776
+        ]
+      },
+      {
+        "label": "person",
+        "confidence": 0.26,
+        "box": [
+          1256,
+          629,
+          1302,
+          721
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:03.761409",
+    "file": "20250507_121303.png",
+    "detections": [
+      {
+        "label": "cow",
+        "confidence": 0.36,
+        "box": [
+          1290,
+          745,
+          1386,
+          776
+        ]
+      },
+      {
+        "label": "person",
+        "confidence": 0.26,
+        "box": [
+          1256,
+          629,
+          1302,
+          721
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:04.212200",
+    "file": "20250507_121304.png",
+    "detections": [
+      {
+        "label": "cow",
+        "confidence": 0.37,
+        "box": [
+          1290,
+          745,
+          1388,
+          776
+        ]
+      },
+      {
+        "label": "person",
+        "confidence": 0.26,
+        "box": [
+          1256,
+          629,
+          1302,
+          721
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:04.640489",
+    "file": "20250507_121304.png",
+    "detections": [
+      {
+        "label": "cow",
+        "confidence": 0.38,
+        "box": [
+          1290,
+          745,
+          1388,
+          777
+        ]
+      },
+      {
+        "label": "person",
+        "confidence": 0.26,
+        "box": [
+          1256,
+          629,
+          1302,
+          721
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:06.112391",
+    "file": "20250507_121306.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.36,
+        "box": [
+          914,
+          289,
+          998,
+          331
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.26,
+        "box": [
+          803,
+          380,
+          1096,
+          480
+        ]
+      },
+      {
+        "label": "bird",
+        "confidence": 0.26,
+        "box": [
+          804,
+          378,
+          1093,
+          476
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:06.504232",
+    "file": "20250507_121306.png",
+    "detections": [
+      {
+        "label": "airplane",
+        "confidence": 0.32,
+        "box": [
+          1212,
+          279,
+          1457,
+          393
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:06.901914",
+    "file": "20250507_121306.png",
+    "detections": [
+      {
+        "label": "airplane",
+        "confidence": 0.31,
+        "box": [
+          1211,
+          279,
+          1456,
+          394
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:07.316524",
+    "file": "20250507_121307.png",
+    "detections": [
+      {
+        "label": "airplane",
+        "confidence": 0.28,
+        "box": [
+          1211,
+          279,
+          1456,
+          395
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:08.862205",
+    "file": "20250507_121308.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.65,
+        "box": [
+          61,
+          102,
+          389,
+          294
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.32,
+        "box": [
+          429,
+          189,
+          542,
+          240
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:09.257158",
+    "file": "20250507_121309.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.57,
+        "box": [
+          67,
+          102,
+          377,
+          292
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:09.653820",
+    "file": "20250507_121309.png",
+    "detections": [
+      {
+        "label": "bird",
+        "confidence": 0.42,
+        "box": [
+          636,
+          330,
+          940,
+          432
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:10.059378",
+    "file": "20250507_121310.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.29,
+        "box": [
+          82,
+          102,
+          367,
+          291
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:10.460671",
+    "file": "20250507_121310.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.54,
+        "box": [
+          82,
+          101,
+          164,
+          219
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.3,
+        "box": [
+          580,
+          298,
+          784,
+          384
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:10.867315",
+    "file": "20250507_121310.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.37,
+        "box": [
+          82,
+          103,
+          161,
+          224
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.26,
+        "box": [
+          663,
+          319,
+          853,
+          398
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:11.287211",
+    "file": "20250507_121311.png",
+    "detections": [
+      {
+        "label": "traffic light",
+        "confidence": 0.48,
+        "box": [
+          85,
+          104,
+          160,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:12.038216",
+    "file": "20250507_121311.png",
+    "detections": [
+      {
+        "label": "bird",
+        "confidence": 0.36,
+        "box": [
+          2220,
+          350,
+          2462,
+          444
+        ]
+      },
+      {
+        "label": "traffic light",
+        "confidence": 0.29,
+        "box": [
+          73,
+          104,
+          168,
+          236
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:12.786503",
+    "file": "20250507_121312.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.59,
+        "box": [
+          216,
+          340,
+          358,
+          400
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.43,
+        "box": [
+          82,
+          104,
+          165,
+          217
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:13.203031",
+    "file": "20250507_121313.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.4,
+        "box": [
+          944,
+          262,
+          1062,
+          300
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.33,
+        "box": [
+          84,
+          103,
+          163,
+          285
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.3,
+        "box": [
+          1692,
+          123,
+          1782,
+          169
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.3,
+        "box": [
+          1503,
+          226,
+          1666,
+          267
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:13.585498",
+    "file": "20250507_121313.png",
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.51,
+        "box": [
+          88,
+          107,
+          162,
+          249
+        ]
+      },
+      {
+        "label": "potted plant",
+        "confidence": 0.27,
+        "box": [
+          956,
+          74,
+          1106,
+          277
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:14.001175",
+    "file": "20250507_121313.png",
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.56,
+        "box": [
+          86,
+          107,
+          163,
+          250
+        ]
+      },
+      {
+        "label": "bench",
+        "confidence": 0.26,
+        "box": [
+          823,
+          921,
+          1753,
+          1370
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:14.752979",
+    "file": "20250507_121314.png",
+    "detections": [
+      {
+        "label": "traffic light",
+        "confidence": 0.33,
+        "box": [
+          84,
+          109,
+          158,
+          253
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:15.601848",
+    "file": "20250507_121315.png",
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.33,
+        "box": [
+          70,
+          104,
+          171,
+          223
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:16.014734",
+    "file": "20250507_121315.png",
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.45,
+        "box": [
+          73,
+          106,
+          176,
+          231
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:16.753275",
+    "file": "20250507_121316.png",
+    "detections": [
+      {
+        "label": "traffic light",
+        "confidence": 0.5,
+        "box": [
+          87,
+          105,
+          157,
+          254
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:17.653547",
+    "file": "20250507_121317.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.45,
+        "box": [
+          1321,
+          33,
+          1497,
+          173
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:18.058421",
+    "file": "20250507_121318.png",
+    "detections": [
+      {
+        "label": "traffic light",
+        "confidence": 0.49,
+        "box": [
+          79,
+          104,
+          164,
+          249
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:18.463492",
+    "file": "20250507_121318.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.4,
+        "box": [
+          653,
+          279,
+          854,
+          369
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.39,
+        "box": [
+          874,
+          256,
+          955,
+          297
+        ]
+      },
+      {
+        "label": "airplane",
+        "confidence": 0.3,
+        "box": [
+          1504,
+          204,
+          1783,
+          364
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:22.817705",
+    "file": "20250507_121322.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.43,
+        "box": [
+          1710,
+          123,
+          2010,
+          207
+        ]
+      },
+      {
+        "label": "bench",
+        "confidence": 0.25,
+        "box": [
+          819,
+          558,
+          1246,
+          969
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:23.248906",
+    "file": "20250507_121323.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.46,
+        "box": [
+          1708,
+          126,
+          2006,
+          208
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.25,
+        "box": [
+          2352,
+          51,
+          2553,
+          125
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:23.678877",
+    "file": "20250507_121323.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.47,
+        "box": [
+          1708,
+          125,
+          2006,
+          208
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:24.113698",
+    "file": "20250507_121324.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.48,
+        "box": [
+          1708,
+          125,
+          2006,
+          208
+        ]
+      },
+      {
+        "label": "refrigerator",
+        "confidence": 0.28,
+        "box": [
+          942,
+          558,
+          1196,
+          964
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:24.529835",
+    "file": "20250507_121324.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.45,
+        "box": [
+          1785,
+          86,
+          2103,
+          180
+        ]
+      },
+      {
+        "label": "refrigerator",
+        "confidence": 0.33,
+        "box": [
+          845,
+          557,
+          1247,
+          990
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:25.294346",
+    "file": "20250507_121325.png",
+    "detections": [
+      {
+        "label": "refrigerator",
+        "confidence": 0.25,
+        "box": [
+          1136,
+          511,
+          1459,
+          871
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:25.712722",
+    "file": "20250507_121325.png",
+    "detections": [
+      {
+        "label": "truck",
+        "confidence": 0.35,
+        "box": [
+          1147,
+          508,
+          1380,
+          769
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:26.938310",
+    "file": "20250507_121326.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.57,
+        "box": [
+          278,
+          86,
+          644,
+          157
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.45,
+        "box": [
+          2156,
+          33,
+          2552,
+          143
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.4,
+        "box": [
+          901,
+          149,
+          1043,
+          219
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.3,
+        "box": [
+          1309,
+          134,
+          1412,
+          179
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.29,
+        "box": [
+          902,
+          179,
+          1044,
+          219
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:27.396058",
+    "file": "20250507_121327.png",
+    "detections": [
+      {
+        "label": "cow",
+        "confidence": 0.43,
+        "box": [
+          2073,
+          439,
+          2177,
+          490
+        ]
+      },
+      {
+        "label": "bird",
+        "confidence": 0.34,
+        "box": [
+          1267,
+          629,
+          1308,
+          724
+        ]
+      },
+      {
+        "label": "cow",
+        "confidence": 0.3,
+        "box": [
+          1976,
+          501,
+          2036,
+          564
+        ]
+      },
+      {
+        "label": "cow",
+        "confidence": 0.3,
+        "box": [
+          2260,
+          368,
+          2389,
+          433
+        ]
+      },
+      {
+        "label": "cow",
+        "confidence": 0.27,
+        "box": [
+          1974,
+          496,
+          2053,
+          567
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:27.835145",
+    "file": "20250507_121327.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.26,
+        "box": [
+          637,
+          133,
+          920,
+          181
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:28.289446",
+    "file": "20250507_121328.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.32,
+        "box": [
+          79,
+          97,
+          422,
+          236
+        ]
+      },
+      {
+        "label": "sheep",
+        "confidence": 0.26,
+        "box": [
+          1672,
+          811,
+          1745,
+          872
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:28.730164",
+    "file": "20250507_121328.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.44,
+        "box": [
+          1505,
+          197,
+          1596,
+          241
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.41,
+        "box": [
+          80,
+          96,
+          416,
+          234
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.37,
+        "box": [
+          1241,
+          943,
+          1340,
+          1069
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.25,
+        "box": [
+          1168,
+          267,
+          1279,
+          298
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:29.166117",
+    "file": "20250507_121329.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.51,
+        "box": [
+          80,
+          104,
+          164,
+          255
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.45,
+        "box": [
+          2030,
+          34,
+          2487,
+          171
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.36,
+        "box": [
+          820,
+          179,
+          961,
+          217
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.27,
+        "box": [
+          1232,
+          126,
+          1411,
+          179
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:29.607350",
+    "file": "20250507_121329.png",
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.82,
+        "box": [
+          1352,
+          433,
+          1538,
+          787
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:30.031599",
+    "file": "20250507_121330.png",
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.83,
+        "box": [
+          1353,
+          439,
+          1538,
+          786
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:30.457235",
+    "file": "20250507_121330.png",
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.85,
+        "box": [
+          1352,
+          421,
+          1539,
+          786
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:30.879523",
+    "file": "20250507_121330.png",
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.85,
+        "box": [
+          1353,
+          420,
+          1539,
+          786
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:31.301535",
+    "file": "20250507_121331.png",
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.85,
+        "box": [
+          1353,
+          420,
+          1539,
+          786
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:31.724156",
+    "file": "20250507_121331.png",
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.85,
+        "box": [
+          1353,
+          420,
+          1539,
+          786
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:32.160237",
+    "file": "20250507_121332.png",
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.85,
+        "box": [
+          1353,
+          420,
+          1539,
+          786
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:32.584223",
+    "file": "20250507_121332.png",
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.85,
+        "box": [
+          1353,
+          420,
+          1539,
+          786
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:33.010614",
+    "file": "20250507_121332.png",
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.85,
+        "box": [
+          1353,
+          420,
+          1539,
+          786
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:13:33.422579",
+    "file": "20250507_121333.png",
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.85,
+        "box": [
+          1353,
+          420,
+          1539,
+          786
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:58:55.827988",
+    "file": "20250507_125855.png",
+    "detections": [
+      {
+        "label": "airplane",
+        "confidence": 0.33,
+        "box": [
+          885,
+          322,
+          994,
+          396
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:58:57.213694",
+    "file": "20250507_125857.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.28,
+        "box": [
+          721,
+          53,
+          829,
+          124
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:58:57.837140",
+    "file": "20250507_125857.png",
+    "detections": [
+      {
+        "label": "bench",
+        "confidence": 0.36,
+        "box": [
+          2145,
+          835,
+          2465,
+          1131
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:58:58.555495",
+    "file": "20250507_125858.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.47,
+        "box": [
+          786,
+          121,
+          885,
+          184
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:59:00.181605",
+    "file": "20250507_125900.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.41,
+        "box": [
+          947,
+          377,
+          1110,
+          456
+        ]
+      },
+      {
+        "label": "kite",
+        "confidence": 0.38,
+        "box": [
+          802,
+          131,
+          901,
+          198
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:59:01.497875",
+    "file": "20250507_125901.png",
+    "detections": [
+      {
+        "label": "bench",
+        "confidence": 0.28,
+        "box": [
+          828,
+          1171,
+          1750,
+          1370
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:59:04.649479",
+    "file": "20250507_125904.png",
+    "detections": [
+      {
+        "label": "kite",
+        "confidence": 0.26,
+        "box": [
+          1973,
+          238,
+          2094,
+          311
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:59:10.244287",
+    "file": "20250507_125910.png",
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.74,
+        "box": [
+          1352,
+          414,
+          1537,
+          771
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:59:10.856395",
+    "file": "20250507_125910.png",
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.73,
+        "box": [
+          1355,
+          415,
+          1537,
+          772
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:59:11.612157",
+    "file": "20250507_125911.png",
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.73,
+        "box": [
+          1355,
+          415,
+          1537,
+          772
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T12:59:12.301858",
+    "file": "20250507_125912.png",
+    "detections": [
+      {
+        "label": "person",
+        "confidence": 0.73,
+        "box": [
+          1355,
+          415,
+          1537,
+          772
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T13:03:35.698136",
+    "file": "20250507_130317.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.31,
+        "box": [
+          1996,
+          343,
+          2134,
+          396
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T13:03:52.179150",
+    "file": "20250507_130336.png",
+    "detections": [
+      {
+        "label": "user",
+        "confidence": 0.65,
+        "box": [
+          1350,
+          422,
+          1541,
+          777
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T13:05:38.592777",
+    "file": "20250507_130524.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.29,
+        "box": [
+          2195,
+          160,
+          2427,
+          247
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T13:05:58.128905",
+    "file": "20250507_130538.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.61,
+        "box": [
+          1349,
+          421,
+          1540,
+          775
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T13:06:04.535357",
+    "file": "20250507_130558.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.66,
+        "box": [
+          1352,
+          415,
+          1541,
+          774
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T13:06:10.747245",
+    "file": "20250507_130604.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.59,
+        "box": [
+          1351,
+          421,
+          1542,
+          777
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T13:06:15.404288",
+    "file": "20250507_130611.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.61,
+        "box": [
+          1352,
+          418,
+          1542,
+          777
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T13:06:23.567883",
+    "file": "20250507_130615.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.61,
+        "box": [
+          1352,
+          418,
+          1542,
+          777
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T13:06:28.545850",
+    "file": "20250507_130623.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.66,
+        "box": [
+          1351,
+          416,
+          1541,
+          774
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T13:06:32.342769",
+    "file": "20250507_130628.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.62,
+        "box": [
+          1353,
+          418,
+          1542,
+          776
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T13:06:36.503421",
+    "file": "20250507_130632.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.62,
+        "box": [
+          1352,
+          418,
+          1542,
+          777
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T13:06:39.909805",
+    "file": "20250507_130636.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.58,
+        "box": [
+          1352,
+          418,
+          1542,
+          776
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T13:06:43.447207",
+    "file": "20250507_130640.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.62,
+        "box": [
+          1352,
+          418,
+          1542,
+          777
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T13:06:46.504498",
+    "file": "20250507_130643.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.62,
+        "box": [
+          1352,
+          418,
+          1542,
+          777
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T13:06:49.715703",
+    "file": "20250507_130646.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.63,
+        "box": [
+          1353,
+          418,
+          1542,
+          776
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T14:48:13.625378",
+    "file": "20250507_144746.png",
+    "detections": [
+      {
+        "label": "flower",
+        "confidence": 0.3,
+        "box": [
+          222,
+          696,
+          315,
+          765
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T14:48:51.683061",
+    "file": "20250507_144818.png",
+    "detections": [
+      {
+        "label": "ui healthbar, hungry, xp, actionbar",
+        "confidence": 0.35,
+        "box": [
+          827,
+          1175,
+          1754,
+          1370
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T14:49:05.483005",
+    "file": "20250507_144852.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.66,
+        "box": [
+          1355,
+          417,
+          1537,
+          770
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T14:49:21.826151",
+    "file": "20250507_144905.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.3,
+        "box": [
+          1357,
+          420,
+          1537,
+          767
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:30:48.007448",
+    "file": "20250507_153047.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.43,
+        "box": [
+          791,
+          41,
+          903,
+          111
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:30:54.367095",
+    "file": "20250507_153054.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.32,
+        "box": [
+          1355,
+          421,
+          1540,
+          781
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:00.607434",
+    "file": "20250507_153100.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.63,
+        "box": [
+          988,
+          733,
+          1163,
+          1079
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.29,
+        "box": [
+          830,
+          74,
+          942,
+          137
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:01.018599",
+    "file": "20250507_153100.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.56,
+        "box": [
+          1358,
+          415,
+          1546,
+          771
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:01.425653",
+    "file": "20250507_153101.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.56,
+        "box": [
+          1358,
+          415,
+          1546,
+          771
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:01.832531",
+    "file": "20250507_153101.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.56,
+        "box": [
+          1358,
+          415,
+          1546,
+          771
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:02.266024",
+    "file": "20250507_153102.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.56,
+        "box": [
+          1358,
+          415,
+          1546,
+          771
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:02.687928",
+    "file": "20250507_153102.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.56,
+        "box": [
+          1358,
+          415,
+          1546,
+          771
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:03.119961",
+    "file": "20250507_153103.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.56,
+        "box": [
+          1358,
+          415,
+          1546,
+          771
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:03.532124",
+    "file": "20250507_153103.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.29,
+        "box": [
+          1357,
+          419,
+          1541,
+          774
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:03.989974",
+    "file": "20250507_153103.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.33,
+        "box": [
+          1357,
+          420,
+          1542,
+          774
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:04.445106",
+    "file": "20250507_153104.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.36,
+        "box": [
+          1357,
+          422,
+          1543,
+          774
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:04.904630",
+    "file": "20250507_153104.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.46,
+        "box": [
+          1356,
+          416,
+          1547,
+          770
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:05.377481",
+    "file": "20250507_153105.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.32,
+        "box": [
+          1357,
+          423,
+          1542,
+          773
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:06.241697",
+    "file": "20250507_153106.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.33,
+        "box": [
+          1358,
+          419,
+          1539,
+          777
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:14.047228",
+    "file": "20250507_153114.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.27,
+        "box": [
+          943,
+          203,
+          1014,
+          237
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.26,
+        "box": [
+          1075,
+          189,
+          1193,
+          237
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:14.445231",
+    "file": "20250507_153114.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.27,
+        "box": [
+          943,
+          203,
+          1014,
+          237
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.26,
+        "box": [
+          1075,
+          189,
+          1193,
+          237
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:14.844474",
+    "file": "20250507_153114.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.27,
+        "box": [
+          943,
+          203,
+          1014,
+          237
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.26,
+        "box": [
+          1075,
+          189,
+          1193,
+          237
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:15.274983",
+    "file": "20250507_153115.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.5,
+        "box": [
+          1355,
+          419,
+          1539,
+          785
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:21.663974",
+    "file": "20250507_153121.png",
+    "detections": [
+      {
+        "label": "sheep",
+        "confidence": 0.38,
+        "box": [
+          1425,
+          674,
+          1467,
+          756
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.33,
+        "box": [
+          1082,
+          188,
+          1194,
+          235
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:23.658332",
+    "file": "20250507_153123.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.54,
+        "box": [
+          1356,
+          417,
+          1538,
+          787
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:24.094288",
+    "file": "20250507_153124.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.54,
+        "box": [
+          1355,
+          418,
+          1538,
+          787
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:24.501838",
+    "file": "20250507_153124.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.7,
+        "box": [
+          1354,
+          419,
+          1538,
+          790
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:25.421930",
+    "file": "20250507_153125.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.5,
+        "box": [
+          1376,
+          130,
+          1460,
+          171
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.47,
+        "box": [
+          1242,
+          154,
+          1359,
+          197
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:33.780707",
+    "file": "20250507_153133.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.43,
+        "box": [
+          1026,
+          202,
+          1147,
+          250
+        ]
+      },
+      {
+        "label": "sheep",
+        "confidence": 0.36,
+        "box": [
+          1151,
+          37,
+          2544,
+          438
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.36,
+        "box": [
+          591,
+          114,
+          676,
+          168
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.31,
+        "box": [
+          894,
+          210,
+          965,
+          249
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.31,
+        "box": [
+          1164,
+          191,
+          1241,
+          232
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.3,
+        "box": [
+          1372,
+          41,
+          1474,
+          104
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.27,
+        "box": [
+          580,
+          250,
+          693,
+          292
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.26,
+        "box": [
+          809,
+          313,
+          911,
+          345
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:36.279631",
+    "file": "20250507_153136.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.29,
+        "box": [
+          398,
+          106,
+          600,
+          210
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:36.661328",
+    "file": "20250507_153136.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.29,
+        "box": [
+          398,
+          106,
+          600,
+          210
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:37.039273",
+    "file": "20250507_153137.png",
+    "detections": [
+      {
+        "label": "sheep",
+        "confidence": 0.5,
+        "box": [
+          1356,
+          430,
+          1541,
+          780
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:41.512995",
+    "file": "20250507_153141.png",
+    "detections": [
+      {
+        "label": "sheep",
+        "confidence": 0.5,
+        "box": [
+          827,
+          1171,
+          1756,
+          1370
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:31:43.215157",
+    "file": "20250507_153143.png",
+    "detections": [
+      {
+        "label": "sheep",
+        "confidence": 0.31,
+        "box": [
+          1425,
+          676,
+          1466,
+          761
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:33:23.126819",
+    "file": "20250507_153323.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.52,
+        "box": [
+          88,
+          106,
+          173,
+          235
+        ]
+      },
+      {
+        "label": "player ui",
+        "confidence": 0.5,
+        "box": [
+          87,
+          104,
+          219,
+          241
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:11.632067",
+    "file": "20250507_153411.png",
+    "detections": [
+      {
+        "label": "player head",
+        "confidence": 0.69,
+        "box": [
+          1356,
+          418,
+          1535,
+          549
+        ]
+      },
+      {
+        "label": "villager head",
+        "confidence": 0.44,
+        "box": [
+          1116,
+          480,
+          1293,
+          549
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:20.345382",
+    "file": "20250507_153420.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.28,
+        "box": [
+          1349,
+          436,
+          1539,
+          797
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:22.096375",
+    "file": "20250507_153422.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.35,
+        "box": [
+          1352,
+          441,
+          1540,
+          796
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:29.228747",
+    "file": "20250507_153429.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.54,
+        "box": [
+          913,
+          62,
+          1063,
+          130
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.51,
+        "box": [
+          989,
+          229,
+          1052,
+          262
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:29.621157",
+    "file": "20250507_153429.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.56,
+        "box": [
+          1354,
+          434,
+          1540,
+          794
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:29.990732",
+    "file": "20250507_153429.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.56,
+        "box": [
+          1354,
+          434,
+          1540,
+          794
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:30.370188",
+    "file": "20250507_153430.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.56,
+        "box": [
+          1354,
+          434,
+          1540,
+          794
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:30.749544",
+    "file": "20250507_153430.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.56,
+        "box": [
+          1354,
+          434,
+          1540,
+          794
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:31.143167",
+    "file": "20250507_153431.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.56,
+        "box": [
+          1354,
+          434,
+          1540,
+          794
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:31.534322",
+    "file": "20250507_153431.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.44,
+        "box": [
+          1354,
+          437,
+          1539,
+          794
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:37.455261",
+    "file": "20250507_153437.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.49,
+        "box": [
+          862,
+          34,
+          1013,
+          102
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.28,
+        "box": [
+          940,
+          203,
+          1004,
+          235
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.28,
+        "box": [
+          1247,
+          147,
+          1328,
+          188
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.26,
+        "box": [
+          1412,
+          238,
+          1537,
+          272
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:37.837421",
+    "file": "20250507_153437.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.54,
+        "box": [
+          1354,
+          432,
+          1540,
+          795
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:38.221008",
+    "file": "20250507_153438.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.54,
+        "box": [
+          1354,
+          432,
+          1540,
+          795
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:38.598739",
+    "file": "20250507_153438.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.54,
+        "box": [
+          1354,
+          432,
+          1540,
+          795
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:38.987234",
+    "file": "20250507_153438.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.54,
+        "box": [
+          1354,
+          432,
+          1540,
+          795
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:39.375276",
+    "file": "20250507_153439.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.56,
+        "box": [
+          1354,
+          434,
+          1540,
+          795
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:39.778618",
+    "file": "20250507_153439.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.44,
+        "box": [
+          1396,
+          582,
+          1494,
+          777
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:40.166660",
+    "file": "20250507_153440.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.43,
+        "box": [
+          968,
+          56,
+          1114,
+          123
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.3,
+        "box": [
+          1341,
+          161,
+          1419,
+          197
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.28,
+        "box": [
+          1505,
+          241,
+          1636,
+          274
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:40.591246",
+    "file": "20250507_153440.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.51,
+        "box": [
+          1010,
+          105,
+          1151,
+          171
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:41.063554",
+    "file": "20250507_153441.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.46,
+        "box": [
+          885,
+          97,
+          1033,
+          169
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.27,
+        "box": [
+          1261,
+          211,
+          1335,
+          248
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.26,
+        "box": [
+          958,
+          263,
+          1019,
+          293
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:41.479678",
+    "file": "20250507_153441.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.44,
+        "box": [
+          882,
+          97,
+          1036,
+          167
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:41.911504",
+    "file": "20250507_153441.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.57,
+        "box": [
+          885,
+          97,
+          1035,
+          168
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.34,
+        "box": [
+          958,
+          263,
+          1024,
+          295
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.31,
+        "box": [
+          1261,
+          211,
+          1335,
+          249
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:42.332174",
+    "file": "20250507_153442.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.58,
+        "box": [
+          888,
+          98,
+          1034,
+          169
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.31,
+        "box": [
+          959,
+          263,
+          1025,
+          295
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.3,
+        "box": [
+          1261,
+          211,
+          1335,
+          249
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.26,
+        "box": [
+          1409,
+          231,
+          1484,
+          264
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:42.743472",
+    "file": "20250507_153442.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.61,
+        "box": [
+          887,
+          98,
+          1040,
+          168
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.41,
+        "box": [
+          959,
+          263,
+          1025,
+          295
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.35,
+        "box": [
+          1409,
+          231,
+          1486,
+          264
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.33,
+        "box": [
+          1261,
+          211,
+          1336,
+          249
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:43.191895",
+    "file": "20250507_153443.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.66,
+        "box": [
+          887,
+          98,
+          1043,
+          169
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.4,
+        "box": [
+          959,
+          263,
+          1025,
+          295
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.36,
+        "box": [
+          1409,
+          231,
+          1486,
+          265
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.32,
+        "box": [
+          1261,
+          211,
+          1336,
+          250
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:52.645843",
+    "file": "20250507_153452.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.67,
+        "box": [
+          887,
+          98,
+          1043,
+          170
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.46,
+        "box": [
+          959,
+          264,
+          1025,
+          295
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.37,
+        "box": [
+          1409,
+          232,
+          1486,
+          265
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.34,
+        "box": [
+          1262,
+          211,
+          1337,
+          250
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.29,
+        "box": [
+          940,
+          262,
+          1027,
+          297
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:55.931454",
+    "file": "20250507_153455.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.82,
+        "box": [
+          1356,
+          441,
+          1539,
+          797
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.41,
+        "box": [
+          942,
+          79,
+          1090,
+          145
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:56.304169",
+    "file": "20250507_153456.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.82,
+        "box": [
+          1356,
+          441,
+          1539,
+          797
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.41,
+        "box": [
+          942,
+          79,
+          1090,
+          145
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:56.682642",
+    "file": "20250507_153456.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.82,
+        "box": [
+          1356,
+          441,
+          1539,
+          797
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.41,
+        "box": [
+          942,
+          79,
+          1090,
+          145
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:57.073228",
+    "file": "20250507_153457.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.82,
+        "box": [
+          1356,
+          441,
+          1539,
+          797
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.41,
+        "box": [
+          942,
+          79,
+          1090,
+          145
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:57.472342",
+    "file": "20250507_153457.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.82,
+        "box": [
+          1356,
+          441,
+          1539,
+          797
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.41,
+        "box": [
+          942,
+          79,
+          1090,
+          145
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:57.869012",
+    "file": "20250507_153457.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.81,
+        "box": [
+          1356,
+          444,
+          1539,
+          797
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.45,
+        "box": [
+          942,
+          79,
+          1090,
+          145
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:58.265959",
+    "file": "20250507_153458.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.75,
+        "box": [
+          1357,
+          437,
+          1538,
+          797
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.41,
+        "box": [
+          942,
+          79,
+          1090,
+          146
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:58.682800",
+    "file": "20250507_153458.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.75,
+        "box": [
+          1356,
+          439,
+          1538,
+          797
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.4,
+        "box": [
+          942,
+          79,
+          1090,
+          146
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:34:59.167920",
+    "file": "20250507_153459.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.31,
+        "box": [
+          513,
+          191,
+          599,
+          231
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:35:13.216466",
+    "file": "20250507_153513.png",
+    "detections": [
+      {
+        "label": "horse tail",
+        "confidence": 0.31,
+        "box": [
+          2466,
+          915,
+          2553,
+          1298
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:35:13.629003",
+    "file": "20250507_153513.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.57,
+        "box": [
+          1354,
+          436,
+          1544,
+          791
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:35:14.055532",
+    "file": "20250507_153514.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.57,
+        "box": [
+          1354,
+          436,
+          1544,
+          791
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:35:14.471973",
+    "file": "20250507_153514.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.55,
+        "box": [
+          1353,
+          436,
+          1544,
+          791
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:35:15.786442",
+    "file": "20250507_153515.png",
+    "detections": [
+      {
+        "label": "horse tail",
+        "confidence": 0.83,
+        "box": [
+          1087,
+          524,
+          1410,
+          919
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.29,
+        "box": [
+          678,
+          46,
+          794,
+          103
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:35:16.232696",
+    "file": "20250507_153516.png",
+    "detections": [
+      {
+        "label": "horse tail",
+        "confidence": 0.36,
+        "box": [
+          1143,
+          455,
+          1519,
+          893
+        ]
+      },
+      {
+        "label": "horse tail",
+        "confidence": 0.28,
+        "box": [
+          1144,
+          460,
+          1517,
+          898
+        ]
+      },
+      {
+        "label": "cloud",
+        "confidence": 0.25,
+        "box": [
+          1227,
+          42,
+          1633,
+          142
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:35:16.668508",
+    "file": "20250507_153516.png",
+    "detections": [
+      {
+        "label": "horse tail",
+        "confidence": 0.66,
+        "box": [
+          1266,
+          466,
+          1558,
+          787
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:35:17.116045",
+    "file": "20250507_153517.png",
+    "detections": [
+      {
+        "label": "cloud",
+        "confidence": 0.4,
+        "box": [
+          1616,
+          44,
+          1983,
+          156
+        ]
+      },
+      {
+        "label": "horse tail",
+        "confidence": 0.39,
+        "box": [
+          1265,
+          484,
+          1668,
+          860
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:35:17.578921",
+    "file": "20250507_153517.png",
+    "detections": [
+      {
+        "label": "horse tail",
+        "confidence": 0.31,
+        "box": [
+          911,
+          509,
+          1575,
+          1155
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:35:18.453382",
+    "file": "20250507_153518.png",
+    "detections": [
+      {
+        "label": "horse tail",
+        "confidence": 0.36,
+        "box": [
+          1151,
+          437,
+          1685,
+          1102
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:35:18.889347",
+    "file": "20250507_153518.png",
+    "detections": [
+      {
+        "label": "horse tail",
+        "confidence": 0.32,
+        "box": [
+          1196,
+          469,
+          1718,
+          1135
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:35:58.038475",
+    "file": "20250507_153557.png",
+    "detections": [
+      {
+        "label": "player dressing room and a horse",
+        "confidence": 0.33,
+        "box": [
+          1196,
+          419,
+          1712,
+          1153
+        ]
+      },
+      {
+        "label": "player",
+        "confidence": 0.28,
+        "box": [
+          1354,
+          414,
+          1541,
+          779
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:35:58.443494",
+    "file": "20250507_153558.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.27,
+        "box": [
+          1356,
+          427,
+          1539,
+          784
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:35:58.836687",
+    "file": "20250507_153558.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.27,
+        "box": [
+          1356,
+          427,
+          1539,
+          784
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:35:59.241466",
+    "file": "20250507_153559.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.27,
+        "box": [
+          1356,
+          427,
+          1539,
+          784
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:35:59.668559",
+    "file": "20250507_153559.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.27,
+        "box": [
+          1356,
+          427,
+          1539,
+          784
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:00.109495",
+    "file": "20250507_153600.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.3,
+        "box": [
+          1356,
+          430,
+          1539,
+          783
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:11.399679",
+    "file": "20250507_153611.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.27,
+        "box": [
+          1198,
+          437,
+          1714,
+          1144
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:11.813196",
+    "file": "20250507_153611.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.67,
+        "box": [
+          1350,
+          424,
+          1562,
+          798
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:12.237959",
+    "file": "20250507_153612.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.67,
+        "box": [
+          1350,
+          424,
+          1562,
+          798
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:12.659681",
+    "file": "20250507_153612.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.64,
+        "box": [
+          1351,
+          427,
+          1562,
+          798
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:19.290679",
+    "file": "20250507_153619.png",
+    "detections": [
+      {
+        "label": "horse",
+        "confidence": 0.26,
+        "box": [
+          1082,
+          394,
+          1348,
+          1104
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:19.718714",
+    "file": "20250507_153619.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.47,
+        "box": [
+          1345,
+          427,
+          1537,
+          800
+        ]
+      },
+      {
+        "label": "player",
+        "confidence": 0.28,
+        "box": [
+          1263,
+          427,
+          1527,
+          1100
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:20.138337",
+    "file": "20250507_153620.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.48,
+        "box": [
+          1348,
+          428,
+          1537,
+          798
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:20.585343",
+    "file": "20250507_153620.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.39,
+        "box": [
+          1349,
+          432,
+          1537,
+          797
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:21.771749",
+    "file": "20250507_153621.png",
+    "detections": [
+      {
+        "label": "horse",
+        "confidence": 0.45,
+        "box": [
+          1072,
+          576,
+          1426,
+          818
+        ]
+      },
+      {
+        "label": "horse",
+        "confidence": 0.37,
+        "box": [
+          948,
+          398,
+          1215,
+          629
+        ]
+      },
+      {
+        "label": "horse",
+        "confidence": 0.33,
+        "box": [
+          946,
+          393,
+          1424,
+          1016
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:26.864223",
+    "file": "20250507_153626.png",
+    "detections": [
+      {
+        "label": "horse",
+        "confidence": 0.33,
+        "box": [
+          1076,
+          591,
+          1403,
+          827
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:39.871180",
+    "file": "20250507_153639.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.58,
+        "box": [
+          1356,
+          424,
+          1537,
+          787
+        ]
+      },
+      {
+        "label": "villager",
+        "confidence": 0.38,
+        "box": [
+          1403,
+          37,
+          1454,
+          142
+        ]
+      },
+      {
+        "label": "pause menu",
+        "confidence": 0.33,
+        "box": [
+          148,
+          343,
+          1061,
+          944
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:40.310758",
+    "file": "20250507_153640.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.44,
+        "box": [
+          1358,
+          441,
+          1537,
+          786
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:40.731057",
+    "file": "20250507_153640.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.44,
+        "box": [
+          1358,
+          441,
+          1537,
+          786
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:41.166060",
+    "file": "20250507_153641.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.46,
+        "box": [
+          1357,
+          438,
+          1538,
+          786
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:42.033964",
+    "file": "20250507_153641.png",
+    "detections": [
+      {
+        "label": "horse",
+        "confidence": 0.83,
+        "box": [
+          832,
+          464,
+          1347,
+          1007
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:46.423192",
+    "file": "20250507_153646.png",
+    "detections": [
+      {
+        "label": "horse",
+        "confidence": 0.8,
+        "box": [
+          915,
+          485,
+          1410,
+          1034
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:46.804799",
+    "file": "20250507_153646.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.81,
+        "box": [
+          1353,
+          426,
+          1540,
+          785
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:47.191111",
+    "file": "20250507_153647.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.81,
+        "box": [
+          1353,
+          426,
+          1540,
+          785
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:47.581428",
+    "file": "20250507_153647.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.73,
+        "box": [
+          1354,
+          428,
+          1540,
+          784
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:36:48.004914",
+    "file": "20250507_153647.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.7,
+        "box": [
+          1354,
+          434,
+          1540,
+          784
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:37:06.552419",
+    "file": "20250507_153706.png",
+    "detections": [
+      {
+        "label": "flower",
+        "confidence": 0.27,
+        "box": [
+          1466,
+          584,
+          1571,
+          677
+        ]
+      },
+      {
+        "label": "flower",
+        "confidence": 0.27,
+        "box": [
+          1150,
+          602,
+          1244,
+          678
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:37:06.949269",
+    "file": "20250507_153706.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.58,
+        "box": [
+          1352,
+          442,
+          1539,
+          791
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:37:07.346257",
+    "file": "20250507_153707.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.58,
+        "box": [
+          1352,
+          442,
+          1539,
+          791
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:37:07.760470",
+    "file": "20250507_153707.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.58,
+        "box": [
+          1352,
+          442,
+          1539,
+          791
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:37:08.179819",
+    "file": "20250507_153708.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.59,
+        "box": [
+          1352,
+          442,
+          1539,
+          791
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:37:20.300579",
+    "file": "20250507_153720.png",
+    "detections": [
+      {
+        "label": "dirt block",
+        "confidence": 0.31,
+        "box": [
+          1915,
+          395,
+          2552,
+          1335
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:37:24.595832",
+    "file": "20250507_153724.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.31,
+        "box": [
+          1355,
+          435,
+          1539,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:37:25.013868",
+    "file": "20250507_153724.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.31,
+        "box": [
+          1355,
+          435,
+          1539,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:37:25.412051",
+    "file": "20250507_153725.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.31,
+        "box": [
+          1355,
+          435,
+          1539,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:37:25.824148",
+    "file": "20250507_153725.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.31,
+        "box": [
+          1355,
+          435,
+          1539,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:37:26.269367",
+    "file": "20250507_153726.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.31,
+        "box": [
+          1355,
+          435,
+          1539,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:37:26.708017",
+    "file": "20250507_153726.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.32,
+        "box": [
+          1355,
+          441,
+          1538,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:37:27.194296",
+    "file": "20250507_153727.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.28,
+        "box": [
+          1384,
+          542,
+          1505,
+          770
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:37:44.776882",
+    "file": "20250507_153744.png",
+    "detections": [
+      {
+        "label": "crosshair on a pig",
+        "confidence": 0.34,
+        "box": [
+          1240,
+          680,
+          1318,
+          739
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:37:48.808856",
+    "file": "20250507_153748.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.54,
+        "box": [
+          1351,
+          426,
+          1539,
+          787
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:37:52.816308",
+    "file": "20250507_153752.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.55,
+        "box": [
+          1345,
+          422,
+          1538,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:37:53.275689",
+    "file": "20250507_153753.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.58,
+        "box": [
+          1352,
+          426,
+          1538,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:37:53.731587",
+    "file": "20250507_153753.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.58,
+        "box": [
+          1352,
+          426,
+          1538,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:37:54.189942",
+    "file": "20250507_153754.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.58,
+        "box": [
+          1352,
+          426,
+          1538,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:37:54.621525",
+    "file": "20250507_153754.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.63,
+        "box": [
+          1352,
+          423,
+          1538,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:38:03.460822",
+    "file": "20250507_153803.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.49,
+        "box": [
+          84,
+          104,
+          172,
+          241
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:38:06.653488",
+    "file": "20250507_153806.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.37,
+        "box": [
+          1356,
+          426,
+          1543,
+          802
+        ]
+      },
+      {
+        "label": "player",
+        "confidence": 0.26,
+        "box": [
+          1358,
+          426,
+          1635,
+          802
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:38:07.097903",
+    "file": "20250507_153807.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.37,
+        "box": [
+          1356,
+          425,
+          1546,
+          802
+        ]
+      },
+      {
+        "label": "player",
+        "confidence": 0.31,
+        "box": [
+          1357,
+          423,
+          1668,
+          803
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:38:07.561431",
+    "file": "20250507_153807.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.37,
+        "box": [
+          1355,
+          425,
+          1546,
+          803
+        ]
+      },
+      {
+        "label": "player",
+        "confidence": 0.33,
+        "box": [
+          1357,
+          423,
+          1665,
+          803
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:38:08.022440",
+    "file": "20250507_153807.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.37,
+        "box": [
+          1355,
+          425,
+          1546,
+          803
+        ]
+      },
+      {
+        "label": "player",
+        "confidence": 0.33,
+        "box": [
+          1357,
+          423,
+          1665,
+          803
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:38:08.456585",
+    "file": "20250507_153808.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.32,
+        "box": [
+          1356,
+          427,
+          1542,
+          800
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:38:13.830794",
+    "file": "20250507_153813.png",
+    "detections": [
+      {
+        "label": "pig",
+        "confidence": 0.59,
+        "box": [
+          1083,
+          548,
+          1442,
+          823
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:38:15.166417",
+    "file": "20250507_153815.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.28,
+        "box": [
+          1357,
+          428,
+          1537,
+          786
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:38:59.618772",
+    "file": "20250507_153859.png",
+    "detections": [
+      {
+        "label": "pig",
+        "confidence": 0.28,
+        "box": [
+          965,
+          646,
+          1279,
+          893
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:00.079374",
+    "file": "20250507_153900.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.45,
+        "box": [
+          1353,
+          435,
+          1538,
+          792
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:00.506579",
+    "file": "20250507_153900.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.39,
+        "box": [
+          1352,
+          428,
+          1538,
+          792
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:01.346509",
+    "file": "20250507_153901.png",
+    "detections": [
+      {
+        "label": "player",
+        "confidence": 0.37,
+        "box": [
+          1353,
+          433,
+          1538,
+          791
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:01.800936",
+    "file": "20250507_153901.png",
+    "detections": [
+      {
+        "label": "pig",
+        "confidence": 0.39,
+        "box": [
+          1223,
+          622,
+          1382,
+          872
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:02.287521",
+    "file": "20250507_153902.png",
+    "detections": [
+      {
+        "label": "pig",
+        "confidence": 0.38,
+        "box": [
+          1223,
+          622,
+          1382,
+          872
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:02.765483",
+    "file": "20250507_153902.png",
+    "detections": [
+      {
+        "label": "pig",
+        "confidence": 0.47,
+        "box": [
+          1186,
+          560,
+          1394,
+          917
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:04.687247",
+    "file": "20250507_153904.png",
+    "detections": [
+      {
+        "label": "pig",
+        "confidence": 0.56,
+        "box": [
+          981,
+          511,
+          1694,
+          1038
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:05.083482",
+    "file": "20250507_153905.png",
+    "detections": [
+      {
+        "label": "pig",
+        "confidence": 0.42,
+        "box": [
+          887,
+          485,
+          1513,
+          1001
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:05.812891",
+    "file": "20250507_153905.png",
+    "detections": [
+      {
+        "label": "pig",
+        "confidence": 0.52,
+        "box": [
+          837,
+          479,
+          1454,
+          978
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:06.229006",
+    "file": "20250507_153906.png",
+    "detections": [
+      {
+        "label": "pig",
+        "confidence": 0.44,
+        "box": [
+          869,
+          514,
+          1502,
+          988
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:06.623003",
+    "file": "20250507_153906.png",
+    "detections": [
+      {
+        "label": "pig",
+        "confidence": 0.69,
+        "box": [
+          898,
+          524,
+          1505,
+          1002
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:07.012016",
+    "file": "20250507_153906.png",
+    "detections": [
+      {
+        "label": "pig",
+        "confidence": 0.43,
+        "box": [
+          952,
+          526,
+          1494,
+          1036
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:07.417160",
+    "file": "20250507_153907.png",
+    "detections": [
+      {
+        "label": "pig",
+        "confidence": 0.36,
+        "box": [
+          1162,
+          438,
+          1640,
+          905
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:07.847775",
+    "file": "20250507_153907.png",
+    "detections": [
+      {
+        "label": "pig",
+        "confidence": 0.34,
+        "box": [
+          1060,
+          500,
+          1880,
+          1143
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:12.794968",
+    "file": "20250507_153912.png",
+    "detections": [
+      {
+        "label": "pig",
+        "confidence": 0.37,
+        "box": [
+          1112,
+          369,
+          2552,
+          1332
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:20.791251",
+    "file": "20250507_153920.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.53,
+        "box": [
+          89,
+          109,
+          163,
+          252
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:25.870728",
+    "file": "20250507_153925.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.79,
+        "box": [
+          1353,
+          435,
+          1538,
+          786
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:26.304801",
+    "file": "20250507_153926.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.75,
+        "box": [
+          1353,
+          437,
+          1538,
+          786
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:26.721526",
+    "file": "20250507_153926.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.75,
+        "box": [
+          1353,
+          437,
+          1538,
+          786
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:27.171758",
+    "file": "20250507_153927.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.72,
+        "box": [
+          1353,
+          436,
+          1538,
+          785
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:32.777108",
+    "file": "20250507_153932.png",
+    "detections": [
+      {
+        "label": "menu",
+        "confidence": 0.4,
+        "box": [
+          14,
+          336,
+          1078,
+          1361
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:33.222168",
+    "file": "20250507_153933.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.72,
+        "box": [
+          1355,
+          434,
+          1538,
+          790
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:33.639041",
+    "file": "20250507_153933.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.72,
+        "box": [
+          1355,
+          434,
+          1538,
+          790
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:34.074255",
+    "file": "20250507_153934.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.61,
+        "box": [
+          1355,
+          439,
+          1537,
+          789
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:36.093244",
+    "file": "20250507_153936.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.44,
+        "box": [
+          89,
+          108,
+          168,
+          244
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:36.538187",
+    "file": "20250507_153936.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.33,
+        "box": [
+          86,
+          107,
+          171,
+          227
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:48.657176",
+    "file": "20250507_153948.png",
+    "detections": [
+      {
+        "label": "ground",
+        "confidence": 0.34,
+        "box": [
+          22,
+          618,
+          1371,
+          973
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:50.283163",
+    "file": "20250507_153950.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.37,
+        "box": [
+          1351,
+          432,
+          1539,
+          783
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:52.297662",
+    "file": "20250507_153952.png",
+    "detections": [
+      {
+        "label": "ground",
+        "confidence": 0.28,
+        "box": [
+          1607,
+          526,
+          2297,
+          713
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:39:58.939509",
+    "file": "20250507_153958.png",
+    "detections": [
+      {
+        "label": "chicken",
+        "confidence": 0.42,
+        "box": [
+          1109,
+          555,
+          1287,
+          771
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:40:03.254464",
+    "file": "20250507_154003.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.28,
+        "box": [
+          1350,
+          427,
+          1538,
+          801
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:40:03.663287",
+    "file": "20250507_154003.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.28,
+        "box": [
+          1350,
+          427,
+          1538,
+          801
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:40:04.067850",
+    "file": "20250507_154004.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.28,
+        "box": [
+          1350,
+          427,
+          1538,
+          801
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:40:04.485547",
+    "file": "20250507_154004.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.28,
+        "box": [
+          1350,
+          427,
+          1538,
+          801
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:40:04.891387",
+    "file": "20250507_154004.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.25,
+        "box": [
+          1350,
+          431,
+          1537,
+          798
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:40:27.430397",
+    "file": "20250507_154027.png",
+    "detections": [
+      {
+        "label": "chicken",
+        "confidence": 0.44,
+        "box": [
+          1099,
+          536,
+          1262,
+          705
+        ]
+      },
+      {
+        "label": "i dont know",
+        "confidence": 0.39,
+        "box": [
+          1205,
+          526,
+          1295,
+          564
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:40:27.873847",
+    "file": "20250507_154027.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.43,
+        "box": [
+          1355,
+          444,
+          1536,
+          776
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:40:28.328517",
+    "file": "20250507_154028.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.43,
+        "box": [
+          1355,
+          444,
+          1536,
+          776
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:40:28.758123",
+    "file": "20250507_154028.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.43,
+        "box": [
+          1355,
+          444,
+          1536,
+          776
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:40:29.206543",
+    "file": "20250507_154029.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.43,
+        "box": [
+          1355,
+          444,
+          1536,
+          776
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:40:29.666557",
+    "file": "20250507_154029.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.43,
+        "box": [
+          1355,
+          444,
+          1536,
+          776
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:40:30.140415",
+    "file": "20250507_154030.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.41,
+        "box": [
+          1356,
+          434,
+          1536,
+          778
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:40:40.100445",
+    "file": "20250507_154040.png",
+    "detections": [
+      {
+        "label": "action bar",
+        "confidence": 0.31,
+        "box": [
+          824,
+          1220,
+          1750,
+          1370
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:40:49.193281",
+    "file": "20250507_154049.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.71,
+        "box": [
+          1356,
+          440,
+          1536,
+          790
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:40:49.646181",
+    "file": "20250507_154049.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.71,
+        "box": [
+          1356,
+          440,
+          1536,
+          790
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:40:50.109067",
+    "file": "20250507_154050.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.71,
+        "box": [
+          1356,
+          440,
+          1536,
+          790
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:40:50.565314",
+    "file": "20250507_154050.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.75,
+        "box": [
+          1356,
+          438,
+          1537,
+          792
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:40:56.855134",
+    "file": "20250507_154056.png",
+    "detections": [
+      {
+        "label": "chicken",
+        "confidence": 0.32,
+        "box": [
+          1169,
+          550,
+          1318,
+          744
+        ]
+      },
+      {
+        "label": "chicken",
+        "confidence": 0.29,
+        "box": [
+          1169,
+          549,
+          1321,
+          747
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:40:59.774387",
+    "file": "20250507_154059.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.28,
+        "box": [
+          90,
+          108,
+          168,
+          239
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:05.728798",
+    "file": "20250507_154105.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.63,
+        "box": [
+          81,
+          101,
+          171,
+          247
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:06.117781",
+    "file": "20250507_154106.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.75,
+        "box": [
+          1354,
+          435,
+          1538,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:06.564377",
+    "file": "20250507_154106.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.75,
+        "box": [
+          1354,
+          435,
+          1538,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:06.990271",
+    "file": "20250507_154106.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.73,
+        "box": [
+          1356,
+          435,
+          1538,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:07.396148",
+    "file": "20250507_154107.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.75,
+        "box": [
+          1356,
+          434,
+          1538,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:12.733402",
+    "file": "20250507_154112.png",
+    "detections": [
+      {
+        "label": "flower",
+        "confidence": 0.31,
+        "box": [
+          1376,
+          635,
+          1482,
+          715
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:17.314654",
+    "file": "20250507_154117.png",
+    "detections": [
+      {
+        "label": "player menu",
+        "confidence": 0.4,
+        "box": [
+          1357,
+          424,
+          1538,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:17.670760",
+    "file": "20250507_154117.png",
+    "detections": [
+      {
+        "label": "player menu",
+        "confidence": 0.66,
+        "box": [
+          1355,
+          420,
+          1537,
+          792
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:18.030908",
+    "file": "20250507_154118.png",
+    "detections": [
+      {
+        "label": "player menu",
+        "confidence": 0.66,
+        "box": [
+          1355,
+          420,
+          1537,
+          792
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:18.394038",
+    "file": "20250507_154118.png",
+    "detections": [
+      {
+        "label": "player menu",
+        "confidence": 0.66,
+        "box": [
+          1355,
+          420,
+          1537,
+          792
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:18.772233",
+    "file": "20250507_154118.png",
+    "detections": [
+      {
+        "label": "player menu",
+        "confidence": 0.53,
+        "box": [
+          1356,
+          424,
+          1537,
+          791
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:30.610883",
+    "file": "20250507_154130.png",
+    "detections": [
+      {
+        "label": "flower",
+        "confidence": 0.29,
+        "box": [
+          1097,
+          751,
+          1242,
+          854
+        ]
+      },
+      {
+        "label": "flower",
+        "confidence": 0.28,
+        "box": [
+          929,
+          660,
+          1047,
+          719
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:31.001692",
+    "file": "20250507_154130.png",
+    "detections": [
+      {
+        "label": "player menu",
+        "confidence": 0.52,
+        "box": [
+          1353,
+          431,
+          1594,
+          784
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:31.387299",
+    "file": "20250507_154131.png",
+    "detections": [
+      {
+        "label": "player menu",
+        "confidence": 0.52,
+        "box": [
+          1353,
+          431,
+          1594,
+          784
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:31.801519",
+    "file": "20250507_154131.png",
+    "detections": [
+      {
+        "label": "player menu",
+        "confidence": 0.52,
+        "box": [
+          1353,
+          431,
+          1594,
+          784
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:32.202350",
+    "file": "20250507_154132.png",
+    "detections": [
+      {
+        "label": "player menu",
+        "confidence": 0.5,
+        "box": [
+          1353,
+          432,
+          1593,
+          784
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:39.914068",
+    "file": "20250507_154139.png",
+    "detections": [
+      {
+        "label": "player hand",
+        "confidence": 0.27,
+        "box": [
+          1809,
+          1102,
+          2201,
+          1361
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:40.329838",
+    "file": "20250507_154140.png",
+    "detections": [
+      {
+        "label": "player menu",
+        "confidence": 0.66,
+        "box": [
+          1344,
+          426,
+          1539,
+          787
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:40.735869",
+    "file": "20250507_154140.png",
+    "detections": [
+      {
+        "label": "player menu",
+        "confidence": 0.66,
+        "box": [
+          1344,
+          426,
+          1539,
+          787
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:41.136705",
+    "file": "20250507_154141.png",
+    "detections": [
+      {
+        "label": "player menu",
+        "confidence": 0.58,
+        "box": [
+          1346,
+          431,
+          1539,
+          787
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:46.492808",
+    "file": "20250507_154146.png",
+    "detections": [
+      {
+        "label": "menu",
+        "confidence": 0.52,
+        "box": [
+          1803,
+          70,
+          2552,
+          1352
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:46.870306",
+    "file": "20250507_154146.png",
+    "detections": [
+      {
+        "label": "player menu",
+        "confidence": 0.61,
+        "box": [
+          1356,
+          431,
+          1536,
+          790
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:47.263021",
+    "file": "20250507_154147.png",
+    "detections": [
+      {
+        "label": "player menu",
+        "confidence": 0.61,
+        "box": [
+          1356,
+          431,
+          1536,
+          790
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:47.694792",
+    "file": "20250507_154147.png",
+    "detections": [
+      {
+        "label": "player menu",
+        "confidence": 0.55,
+        "box": [
+          1356,
+          433,
+          1537,
+          790
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:49.286775",
+    "file": "20250507_154149.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.55,
+        "box": [
+          91,
+          108,
+          166,
+          247
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:49.731874",
+    "file": "20250507_154149.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.41,
+        "box": [
+          90,
+          108,
+          165,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:55.165542",
+    "file": "20250507_154155.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.48,
+        "box": [
+          90,
+          106,
+          169,
+          250
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:41:58.867169",
+    "file": "20250507_154158.png",
+    "detections": [
+      {
+        "label": "ground",
+        "confidence": 0.36,
+        "box": [
+          72,
+          780,
+          465,
+          1135
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:42:10.965202",
+    "file": "20250507_154210.png",
+    "detections": [
+      {
+        "label": "dark sky with cloud and stars",
+        "confidence": 0.27,
+        "box": [
+          134,
+          21,
+          2519,
+          518
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:42:11.400814",
+    "file": "20250507_154211.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.41,
+        "box": [
+          1356,
+          435,
+          1538,
+          773
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:42:11.853539",
+    "file": "20250507_154211.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.41,
+        "box": [
+          1356,
+          435,
+          1538,
+          773
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:42:12.277992",
+    "file": "20250507_154212.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.32,
+        "box": [
+          1357,
+          433,
+          1537,
+          770
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:42:27.891544",
+    "file": "20250507_154227.png",
+    "detections": [
+      {
+        "label": "dark sky",
+        "confidence": 0.41,
+        "box": [
+          134,
+          22,
+          2541,
+          500
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:42:28.270936",
+    "file": "20250507_154228.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.58,
+        "box": [
+          1357,
+          422,
+          1536,
+          791
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:42:28.647986",
+    "file": "20250507_154228.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.58,
+        "box": [
+          1357,
+          422,
+          1536,
+          791
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:42:29.015992",
+    "file": "20250507_154228.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.56,
+        "box": [
+          1357,
+          424,
+          1539,
+          794
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:42:39.445055",
+    "file": "20250507_154239.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.36,
+        "box": [
+          1358,
+          435,
+          1536,
+          788
+        ]
+      },
+      {
+        "label": "dark sky",
+        "confidence": 0.31,
+        "box": [
+          978,
+          36,
+          1810,
+          1168
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:42:51.359775",
+    "file": "20250507_154251.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.25,
+        "box": [
+          1358,
+          437,
+          1538,
+          795
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:42:54.447042",
+    "file": "20250507_154254.png",
+    "detections": [
+      {
+        "label": "dark sky with cloud and stars",
+        "confidence": 0.36,
+        "box": [
+          94,
+          41,
+          2553,
+          1285
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:09.070180",
+    "file": "20250507_154309.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.38,
+        "box": [
+          83,
+          104,
+          177,
+          232
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:09.492750",
+    "file": "20250507_154309.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.63,
+        "box": [
+          1355,
+          427,
+          1539,
+          789
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:09.906741",
+    "file": "20250507_154309.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.63,
+        "box": [
+          1355,
+          427,
+          1539,
+          789
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:10.317699",
+    "file": "20250507_154310.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.62,
+        "box": [
+          1354,
+          422,
+          1539,
+          789
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:10.761671",
+    "file": "20250507_154310.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.52,
+        "box": [
+          1355,
+          439,
+          1539,
+          787
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:11.628535",
+    "file": "20250507_154311.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.28,
+        "box": [
+          93,
+          108,
+          171,
+          261
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:12.078280",
+    "file": "20250507_154312.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.46,
+        "box": [
+          85,
+          107,
+          172,
+          246
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:12.579444",
+    "file": "20250507_154312.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.35,
+        "box": [
+          78,
+          106,
+          176,
+          222
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:13.027982",
+    "file": "20250507_154312.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.33,
+        "box": [
+          78,
+          108,
+          176,
+          228
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:13.552259",
+    "file": "20250507_154313.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.35,
+        "box": [
+          79,
+          108,
+          174,
+          218
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:14.024354",
+    "file": "20250507_154313.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.36,
+        "box": [
+          85,
+          107,
+          170,
+          247
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:14.470576",
+    "file": "20250507_154314.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.31,
+        "box": [
+          94,
+          107,
+          166,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:14.930581",
+    "file": "20250507_154314.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.55,
+        "box": [
+          86,
+          109,
+          166,
+          253
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:15.425414",
+    "file": "20250507_154315.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.55,
+        "box": [
+          85,
+          108,
+          175,
+          244
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:15.960900",
+    "file": "20250507_154315.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.3,
+        "box": [
+          91,
+          108,
+          168,
+          259
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:25.465858",
+    "file": "20250507_154325.png",
+    "detections": [
+      {
+        "label": "flower",
+        "confidence": 0.39,
+        "box": [
+          749,
+          762,
+          885,
+          837
+        ]
+      },
+      {
+        "label": "flower",
+        "confidence": 0.35,
+        "box": [
+          1960,
+          853,
+          2144,
+          948
+        ]
+      },
+      {
+        "label": "player hand",
+        "confidence": 0.33,
+        "box": [
+          1911,
+          1160,
+          2335,
+          1364
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:25.891988",
+    "file": "20250507_154325.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.58,
+        "box": [
+          1349,
+          435,
+          1541,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:26.331008",
+    "file": "20250507_154326.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.58,
+        "box": [
+          1349,
+          435,
+          1541,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:26.798024",
+    "file": "20250507_154326.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.58,
+        "box": [
+          1349,
+          435,
+          1541,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:27.233931",
+    "file": "20250507_154327.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.6,
+        "box": [
+          1345,
+          424,
+          1541,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:27.665089",
+    "file": "20250507_154327.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.4,
+        "box": [
+          1351,
+          437,
+          1541,
+          788
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:34.356589",
+    "file": "20250507_154334.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.27,
+        "box": [
+          90,
+          109,
+          167,
+          237
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:34.838473",
+    "file": "20250507_154334.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.33,
+        "box": [
+          91,
+          109,
+          166,
+          247
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:35.320030",
+    "file": "20250507_154335.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.58,
+        "box": [
+          90,
+          108,
+          165,
+          262
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:35.818198",
+    "file": "20250507_154335.png",
+    "detections": [
+      {
+        "label": "player hand",
+        "confidence": 0.4,
+        "box": [
+          1857,
+          1187,
+          2259,
+          1367
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:46.169903",
+    "file": "20250507_154346.png",
+    "detections": [
+      {
+        "label": "i dont know",
+        "confidence": 0.28,
+        "box": [
+          1315,
+          529,
+          1354,
+          617
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:46.612185",
+    "file": "20250507_154346.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.75,
+        "box": [
+          1356,
+          420,
+          1538,
+          791
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:47.077208",
+    "file": "20250507_154347.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.75,
+        "box": [
+          1356,
+          420,
+          1538,
+          791
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:47.514068",
+    "file": "20250507_154347.png",
+    "detections": [
+      {
+        "label": "player in menu",
+        "confidence": 0.69,
+        "box": [
+          1356,
+          432,
+          1537,
+          790
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:49.581499",
+    "file": "20250507_154349.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.33,
+        "box": [
+          86,
+          105,
+          172,
+          239
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:50.143878",
+    "file": "20250507_154350.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.3,
+        "box": [
+          91,
+          105,
+          168,
+          259
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:43:50.681134",
+    "file": "20250507_154350.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.36,
+        "box": [
+          79,
+          104,
+          175,
+          226
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:44:09.417108",
+    "file": "20250507_154409.png",
+    "detections": [
+      {
+        "label": "player ui",
+        "confidence": 0.6,
+        "box": [
+          86,
+          103,
+          171,
+          256
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:44:15.584674",
+    "file": "20250507_154415.png",
+    "detections": [
+      {
+        "label": "stone",
+        "confidence": 0.67,
+        "box": [
+          1748,
+          455,
+          2553,
+          1039
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:44:16.048924",
+    "file": "20250507_154416.png",
+    "detections": [
+      {
+        "label": "stone",
+        "confidence": 0.61,
+        "box": [
+          1748,
+          455,
+          2553,
+          1039
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:44:16.502171",
+    "file": "20250507_154416.png",
+    "detections": [
+      {
+        "label": "stone",
+        "confidence": 0.6,
+        "box": [
+          1748,
+          455,
+          2553,
+          1039
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:44:16.957828",
+    "file": "20250507_154416.png",
+    "detections": [
+      {
+        "label": "stone",
+        "confidence": 0.62,
+        "box": [
+          1748,
+          455,
+          2553,
+          1039
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:44:17.401514",
+    "file": "20250507_154417.png",
+    "detections": [
+      {
+        "label": "stone",
+        "confidence": 0.62,
+        "box": [
+          1749,
+          455,
+          2553,
+          1039
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:44:17.854130",
+    "file": "20250507_154417.png",
+    "detections": [
+      {
+        "label": "stone",
+        "confidence": 0.6,
+        "box": [
+          1748,
+          455,
+          2553,
+          1039
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:44:18.325748",
+    "file": "20250507_154418.png",
+    "detections": [
+      {
+        "label": "stone",
+        "confidence": 0.61,
+        "box": [
+          1748,
+          455,
+          2553,
+          1039
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:44:18.768711",
+    "file": "20250507_154418.png",
+    "detections": [
+      {
+        "label": "stone",
+        "confidence": 0.62,
+        "box": [
+          1749,
+          455,
+          2553,
+          1039
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:44:19.208467",
+    "file": "20250507_154419.png",
+    "detections": [
+      {
+        "label": "stone",
+        "confidence": 0.63,
+        "box": [
+          1748,
+          455,
+          2553,
+          1039
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:44:19.693601",
+    "file": "20250507_154419.png",
+    "detections": [
+      {
+        "label": "stone",
+        "confidence": 0.63,
+        "box": [
+          1748,
+          455,
+          2553,
+          1039
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:44:20.183962",
+    "file": "20250507_154420.png",
+    "detections": [
+      {
+        "label": "stone",
+        "confidence": 0.64,
+        "box": [
+          1748,
+          455,
+          2553,
+          1039
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:44:20.651219",
+    "file": "20250507_154420.png",
+    "detections": [
+      {
+        "label": "stone",
+        "confidence": 0.63,
+        "box": [
+          1748,
+          455,
+          2553,
+          1039
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:44:21.105794",
+    "file": "20250507_154421.png",
+    "detections": [
+      {
+        "label": "stone",
+        "confidence": 0.63,
+        "box": [
+          1748,
+          455,
+          2553,
+          1039
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:44:21.546376",
+    "file": "20250507_154421.png",
+    "detections": [
+      {
+        "label": "stone",
+        "confidence": 0.64,
+        "box": [
+          1748,
+          455,
+          2553,
+          1039
+        ]
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-05-07T15:44:21.996638",
+    "file": "20250507_154421.png",
+    "detections": [
+      {
+        "label": "stone",
+        "confidence": 0.61,
+        "box": [
+          1749,
+          455,
+          2553,
+          1039
+        ]
+      }
+    ]
+  }
+]

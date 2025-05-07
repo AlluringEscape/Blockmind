@@ -1,0 +1,5 @@
+names: []
+path: datasets/MinecraftYOLO
+train: train/images
+val: val/images
+names: ["zombie", "player", "block_stone", "heart_icon", "creeper", "inventory_ui"]

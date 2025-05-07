@@ -1,47 +1,42 @@
-
 # blockmind_launcher.py
 import time
-import cv2
-from blockmind_window_capture import capture_game_window
 from blockmind_vision import analyze_frame
+from blockmind_brain import BlockmindBrain
+from blockmind_actions import ActionHandler
+from blockmind_memory import BlockmindMemory
+from blockmind_survival_brain import SurvivalPlanner
+from blockmind_self_improve import SelfImprover
 
-def draw_detections(frame, detections):
-    for det in detections:
-        label = det.get("label", "Unknown")
-        x, y, w, h = det.get("box", (0, 0, 0, 0))
-        color = (0, 255, 0) if label != "Unknown" else (0, 0, 255)
-        cv2.rectangle(frame, (x, y), (x + w, y + h), color, 2)
-        cv2.putText(frame, label, (x, y - 5), cv2.FONT_HERSHEY_SIMPLEX, 0.5, color, 1)
-    return frame
+print("🧠 Blockmind Autopilot: Full Autonomy Mode")
 
-def main():
-    print("🧠 Blockmind Vision Debug Mode (Press 'q' to quit')")
+profile = {"name": "Blockmind"}
+brain = BlockmindBrain(profile)
+actions = ActionHandler()
+memory = BlockmindMemory()
+survival = SurvivalPlanner()
+self_ai = SelfImprover()
+
+try:
     while True:
-        try:
-            frame = capture_game_window()
-            result = analyze_frame(frame)
+        # === SEE ===
+        state = analyze_frame()
+        memory.save_state(state)
 
-            detections = result.get("detections", [])
-            crosshair_rgb = result.get("crosshair_rgb", None)
+        # === THINK ===
+        goal = survival.choose_goal(state)
+        decision = brain.perform_action(state, goal)
 
-            frame = draw_detections(frame, detections)
+        # === ACT ===
+        result = actions.execute(decision)
+        memory.log_result(state, decision, result)
 
-            if crosshair_rgb:
-                print(f"🎯 Crosshair RGB: {crosshair_rgb}")
-                cv2.putText(frame, f"Crosshair RGB: {crosshair_rgb}", (10, 20),
-                            cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 2)
+        # === LEARN ===
+        brain.learn_from_result(state, decision, result)
 
-            cv2.imshow("Blockmind Sees", frame)
-            if cv2.waitKey(1) & 0xFF == ord("q"):
-                break
+        # === SELF-IMPROVE ===
+        self_ai.check_and_evolve(memory)
 
-            time.sleep(0.1)  # Throttle loop
+        time.sleep(0.5)
 
-        except Exception as e:
-            print(f"❌ Error: {e}")
-            break
-
-    cv2.destroyAllWindows()
-
-if __name__ == "__main__":
-    main()
+except KeyboardInterrupt:
+    print("🛑 Blockmind shutdown requested by user.")
