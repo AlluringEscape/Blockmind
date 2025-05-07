@@ -1,95 +1,44 @@
-
-# blockmind_launcher.py
-import time
-from blockmind_vision import analyze_frame
-from blockmind_brain import BlockmindBrain
-from blockmind_actions import ActionHandler
-from blockmind_memory import BlockmindMemory
-from blockmind_survival_brain import SurvivalPlanner
-from blockmind_self_improve import SelfImprover
-
-print("🧠 Blockmind Autopilot: Full Autonomy Mode")
-
-profile = {"name": "Blockmind"}
-brain = BlockmindBrain(profile)
-actions = ActionHandler()
-memory = BlockmindMemory()
-survival = SurvivalPlanner()
-self_ai = SelfImprover()
-
-try:
-    while True:
-        # === SEE ===
-        state = analyze_frame()
-        memory.save_state(state)
-
-        # === THINK ===
-        goal = survival.choose_goal(state)
-        decision = brain.perform_action(state, goal)
-
-        # === ACT ===
-        result = actions.execute(decision)
-        memory.log_result(state, decision, result)
-
-        # === LEARN ===
-        brain.learn_from_result(state, decision, result)
-
-        # === SELF-IMPROVE ===
-        self_ai.check_and_evolve(memory)
-
-        time.sleep(0.5)
-
-except KeyboardInterrupt:
-    print("🛑 Blockmind shutdown requested by user.")
-
-
-# blockmind_brain.py
-import random
 import json
 import os
+import random
+import numpy as np
 
 class BlockmindBrain:
-    def __init__(self, profile):
-        self.name = profile.get("name", "Blockmind")
-        self.memory_file = f"memory_{self.name}.json"
-        self.memory = []
-        self.load_memory()
+    def __init__(self):
+        self.q_table = {}
+        self.epsilon = 0.3  # Exploration rate
+        self.learning_rate = 0.1
+        self.discount_factor = 0.9
 
-    def load_memory(self):
-        if os.path.exists(self.memory_file):
-            with open(self.memory_file, "r") as f:
-                self.memory = json.load(f)
+    def get_state_hash(self, state):
+        simplified_state = (
+            tuple(sorted([d["label"] for d in state["detections"]])),
+            state.get("health", 20),
+            state.get("hunger", 20)
+        )
+        return hash(simplified_state)
 
-    def save_memory(self):
-        with open(self.memory_file, "w") as f:
-            json.dump(self.memory, f, indent=2)
+    def choose_action(self, state, possible_actions):
+        state_key = self.get_state_hash(state)
+        
+        if random.uniform(0, 1) < self.epsilon:
+            return random.choice(possible_actions)
+            
+        if state_key not in self.q_table:
+            self.q_table[state_key] = {action: 1.0 for action in possible_actions}
+            
+        return max(self.q_table[state_key], key=self.q_table[state_key].get)
 
-    def perform_action(self, state, goal):
-        if goal == "explore":
-            actions = [
-                {"type": "move", "direction": "forward"},
-                {"type": "look", "direction": "left"},
-                {"type": "look", "direction": "right"},
-                {"type": "jump"}
-            ]
-        elif goal == "collect_wood":
-            actions = [
-                {"type": "punch"},
-                {"type": "mine"},
-                {"type": "look", "direction": "down"},
-                {"type": "move", "direction": "forward"}
-            ]
-        else:
-            actions = [
-                {"type": "move", "direction": "backward"},
-                {"type": "jump"}
-            ]
-
-        action = random.choice(actions)
-        self.memory.append({"state": state, "goal": goal, "action": action})
-        self.save_memory()
-        return action
-
-    def learn_from_result(self, state, action, result):
-        # Future: log success/failure and adjust behavior
-        pass
+    def update_q_values(self, state, action, reward, next_state):
+        state_key = self.get_state_hash(state)
+        next_state_key = self.get_state_hash(next_state)
+        
+        old_value = self.q_table.get(state_key, {}).get(action, 1.0)
+        next_max = max(self.q_table.get(next_state_key, {}).values(), default=1.0)
+        
+        new_value = (1 - self.learning_rate) * old_value + \
+                    self.learning_rate * (reward + self.discount_factor * next_max)
+        
+        if state_key not in self.q_table:
+            self.q_table[state_key] = {}
+        self.q_table[state_key][action] = new_value

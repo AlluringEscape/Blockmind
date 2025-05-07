@@ -1,42 +1,42 @@
-# blockmind_launcher.py
-import time
+from blockmind_window_capture import capture_game_window
 from blockmind_vision import analyze_frame
 from blockmind_brain import BlockmindBrain
 from blockmind_actions import ActionHandler
-from blockmind_memory import BlockmindMemory
-from blockmind_survival_brain import SurvivalPlanner
-from blockmind_self_improve import SelfImprover
+from survival_brain import SurvivalPlanner
+import time
 
-print("🧠 Blockmind Autopilot: Full Autonomy Mode")
-
-profile = {"name": "Blockmind"}
-brain = BlockmindBrain(profile)
-actions = ActionHandler()
-memory = BlockmindMemory()
-survival = SurvivalPlanner()
-self_ai = SelfImprover()
-
-try:
+def main():
+    brain = BlockmindBrain()
+    actions = ActionHandler()
+    survival = SurvivalPlanner()
+    
     while True:
-        # === SEE ===
-        state = analyze_frame()
-        memory.save_state(state)
+        # Perception
+        frame, region = capture_game_window()
+        if frame is None:
+            time.sleep(2)
+            continue
+            
+        state = analyze_frame(frame)
+        state.update({
+            "region": region,
+            "timestamp": time.time()
+        })
 
-        # === THINK ===
+        # Cognition
         goal = survival.choose_goal(state)
-        decision = brain.perform_action(state, goal)
+        possible_actions = self.get_possible_actions(goal)
+        action = brain.choose_action(state, possible_actions)
 
-        # === ACT ===
-        result = actions.execute(decision)
-        memory.log_result(state, decision, result)
+        # Action
+        result = actions.execute(action)
+        
+        # Learning
+        next_state = analyze_frame(capture_game_window()[0])
+        reward = self.calculate_reward(state, action, result)
+        brain.update_q_values(state, action, reward, next_state)
 
-        # === LEARN ===
-        brain.learn_from_result(state, decision, result)
+        time.sleep(0.3)
 
-        # === SELF-IMPROVE ===
-        self_ai.check_and_evolve(memory)
-
-        time.sleep(0.5)
-
-except KeyboardInterrupt:
-    print("🛑 Blockmind shutdown requested by user.")
+if __name__ == "__main__":
+    main()
