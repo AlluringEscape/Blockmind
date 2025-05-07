@@ -12,11 +12,14 @@ def analyze_frame(frame=None):
         print("❌ No game window captured.")
         return {}
 
-    # === Placeholder for processing logic ===
     print("👁️ Frame captured and processed.")
 
-    # Return dummy detection results for now
+    # Detect center pixel (crosshair RGB)
+    height, width, _ = frame.shape
+    center_x, center_y = width // 2, height // 2
+    crosshair_rgb = frame[center_y, center_x].tolist()
+
     return {
         "detections": [],
-        "crosshair_rgb": None
+        "crosshair_rgb": crosshair_rgb
     }
