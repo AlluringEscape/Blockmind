@@ -1,52 +1,14 @@
-import dxcam
+import pyautogui
 import cv2
-import pygetwindow as gw
-import time
+import numpy as np
 
-camera = dxcam.create(output_color="BGR")
-camera_started = False
-
-def get_minecraft_window_region():
-    for window in gw.getWindowsWithTitle("Minecraft"):
-        if "minecraft" in window.title.lower() and window.visible:
-            left, top = window.left, window.top
-            right, bottom = left + window.width, top + window.height
-            return (left, top, right, bottom)
-    return None
+# Use your selected region from the selector
+REGION = (2552, 1, 2554, 1370)
 
 def capture_game_window():
-    global camera_started
-    region = get_minecraft_window_region()
-    if not region:
-        print("❌ Minecraft window not found.")
-        return None
-
-    camera.region = region
-    if not camera_started:
-        camera.start(target_fps=30)
-        time.sleep(0.1)  # allow first frame to buffer
-        camera_started = True
-
-    frame = camera.get_latest_frame()
-    if frame is None:
-        print("⚠️ No frame available.")
+    screenshot = pyautogui.screenshot(region=REGION)
+    frame = cv2.cvtColor(np.array(screenshot), cv2.COLOR_RGB2BGR)
     return frame
 
 def stop_camera():
-    global camera_started
-    if camera_started:
-        camera.stop()
-        camera_started = False
-
-if __name__ == "__main__":
-    try:
-        print("📷 Starting preview...")
-        while True:
-            frame = capture_game_window()
-            if frame is not None:
-                cv2.imshow("Game Preview", frame)
-            if cv2.waitKey(1) == 27:  # ESC to quit
-                break
-    finally:
-        stop_camera()
-        cv2.destroyAllWindows()
+    pass  # Placeholder for compatibility
