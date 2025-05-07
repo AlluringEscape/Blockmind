@@ -1,0 +1,7 @@
+{
+  "name": "andy",
+  "model": "meta-llama/meta-llama-3-8b-instruct",
+  "llm_provider": "llama3",
+  "llm_url": "http://127.0.0.1:1234/v1/chat/completions",
+  "load_memory": true
+}

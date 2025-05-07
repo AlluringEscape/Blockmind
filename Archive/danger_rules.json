@@ -1,0 +1,20 @@
+{
+    "avoid": [
+      "dig_straight_down",
+      "dig_straight_up",
+      "travel_at_night_unprepared",
+      "eat_raw_meat",
+      "stand_near_creepers",
+      "jump_from_heights",
+      "swim_with_low_air",
+      "attack_iron_golem"
+    ],
+    "hunger_management": [
+      "eat_cooked_food",
+      "prioritize_farms",
+      "keep_food_in_inventory",
+      "avoid_sprinting_when_low_food",
+      "watch_hunger_bar"
+    ]
+  }
+  

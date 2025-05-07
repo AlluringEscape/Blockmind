@@ -1,0 +1,28 @@
+{
+    "raw_iron": {
+      "output": "iron_ingot",
+      "fuel_required": true,
+      "furnace": "furnace"
+    },
+    "raw_gold": {
+      "output": "gold_ingot",
+      "fuel_required": true,
+      "furnace": "furnace"
+    },
+    "raw_porkchop": {
+      "output": "cooked_porkchop",
+      "fuel_required": true,
+      "furnace": "furnace"
+    },
+    "raw_beef": {
+      "output": "cooked_beef",
+      "fuel_required": true,
+      "furnace": "furnace"
+    },
+    "sand": {
+      "output": "glass",
+      "fuel_required": true,
+      "furnace": "furnace"
+    }
+  }
+  

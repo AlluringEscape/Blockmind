@@ -1,0 +1,8 @@
+{
+    "iron_sword": ["sharpness", "fire_aspect", "looting"],
+    "iron_pickaxe": ["efficiency", "unbreaking", "fortune"],
+    "diamond_chestplate": ["protection", "thorns", "unbreaking"],
+    "bow": ["power", "flame", "punch"],
+    "book": ["sharpness", "protection", "efficiency"]
+  }
+  

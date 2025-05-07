@@ -1,0 +1,24 @@
+{
+    "farmer": {
+      "offers": [
+        { "give": ["wheat", "wheat", "wheat", "wheat", "wheat", "wheat", "wheat", "wheat", "wheat", "wheat"], "receive": "emerald" },
+        { "give": ["emerald"], "receive": "bread" }
+      ]
+    },
+    "librarian": {
+      "offers": [
+        { "give": ["paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper", "paper"], "receive": "emerald" }
+      ]
+    },
+    "cleric": {
+      "offers": [
+        { "give": ["rotten_flesh", "rotten_flesh", "rotten_flesh", "rotten_flesh", "rotten_flesh", "rotten_flesh", "rotten_flesh", "rotten_flesh", "rotten_flesh", "rotten_flesh"], "receive": "emerald" }
+      ]
+    },
+    "fletcher": {
+      "offers": [
+        { "give": ["stick", "stick", "stick", "stick", "stick", "stick", "stick", "stick", "stick", "stick", "stick", "stick", "stick", "stick", "stick", "stick"], "receive": "emerald" }
+      ]
+    }
+  }
+  

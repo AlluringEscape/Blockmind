@@ -1,0 +1,18 @@
+{
+  "scan_area": {
+    "success": 7,
+    "fail": 0
+  },
+  "walk_forward": {
+    "success": 2,
+    "fail": 4
+  },
+  "look_around": {
+    "success": 3,
+    "fail": 1
+  },
+  "log_landmarks": {
+    "success": 3,
+    "fail": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "awkward_potion": {
+      "requires": ["water_bottle", "nether_wart"],
+      "fuel": "blaze_powder"
+    },
+    "potion_of_healing": {
+      "requires": ["awkward_potion", "glistering_melon_slice"],
+      "fuel": "blaze_powder"
+    },
+    "potion_of_strength": {
+      "requires": ["awkward_potion", "blaze_powder"],
+      "fuel": "blaze_powder"
+    },
+    "potion_of_swiftness": {
+      "requires": ["awkward_potion", "sugar"],
+      "fuel": "blaze_powder"
+    },
+    "potion_of_regeneration": {
+      "requires": ["awkward_potion", "ghast_tear"],
+      "fuel": "blaze_powder"
+    },
+    "potion_of_fire_resistance": {
+      "requires": ["awkward_potion", "magma_cream"],
+      "fuel": "blaze_powder"
+    }
+  }
+  

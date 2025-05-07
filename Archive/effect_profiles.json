@@ -1,0 +1,11 @@
+{
+    "positive": [
+      "speed", "haste", "strength", "regeneration", "resistance",
+      "fire_resistance", "water_breathing", "invisibility", "night_vision", "absorption"
+    ],
+    "negative": [
+      "poison", "slowness", "weakness", "mining_fatigue", "blindness",
+      "wither", "hunger", "nausea"
+    ]
+  }
+  

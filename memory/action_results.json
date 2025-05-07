@@ -1,0 +1,42 @@
+{
+  "explore": {
+    "success": 1,
+    "fail": 8
+  },
+  "look_around": {
+    "success": 24,
+    "fail": 22
+  },
+  "gather_info": {
+    "success": 23,
+    "fail": 20
+  },
+  "gather_wood": {
+    "success": 0,
+    "fail": 10
+  },
+  "craft_planks": {
+    "success": 1,
+    "fail": 6
+  },
+  "place_walls": {
+    "success": 1,
+    "fail": 6
+  },
+  "place_roof": {
+    "success": 1,
+    "fail": 6
+  },
+  "walk_to_tree": {
+    "success": 0,
+    "fail": 9
+  },
+  "punch_tree": {
+    "success": 9,
+    "fail": 0
+  },
+  "collect_log": {
+    "success": 8,
+    "fail": 0
+  }
+}

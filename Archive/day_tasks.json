@@ -1,0 +1,28 @@
+{
+    "day_1": [
+      "punch_tree",
+      "craft_planks",
+      "craft_crafting_table",
+      "make_wooden_pickaxe",
+      "dig_shelter",
+      "make_furnace",
+      "craft_torches",
+      "stay_safe_at_night"
+    ],
+    "day_2": [
+      "gather_food",
+      "make_bed",
+      "explore_area",
+      "expand_shelter",
+      "craft_chest",
+      "upgrade_tools_to_stone"
+    ],
+    "day_3": [
+      "start_farming",
+      "hunt_animals",
+      "dig_mine",
+      "craft_armor",
+      "prepare_for_mobs"
+    ]
+  }
+  

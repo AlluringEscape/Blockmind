@@ -1,0 +1,1 @@
+✅ This is a placeholder. Custom Minecraft-trained YOLOv8 model will go here.

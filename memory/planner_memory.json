@@ -1,0 +1,1114 @@
+[
+  {
+    "timestamp": "2025-05-06T13:58:20.654966",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T13:58:23.010792",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T13:58:25.345729",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T13:58:29.711894",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:03:06.554580",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:03:08.952162",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:06:42.662315",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:07:09.059280",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": null
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:09:18.609613",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:09:35.799913",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:09:48.542971",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": null
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:13:18.928609",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:13:33.484914",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": null
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:17:17.103317",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": null
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:21:35.355078",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:23:11.437500",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:23:24.630546",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": null
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:30:49.866028",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:31:03.034735",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:31:16.204881",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:31:48.081952",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:32:38.288207",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:33:35.506408",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:34:40.516577",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T14:35:53.892960",
+    "goal": "explore",
+    "steps": [
+      "explore"
+    ],
+    "results": {
+      "explore": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:17:05.506224",
+    "goal": "gather_food",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:17:34.820062",
+    "goal": "gather_food",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:27:03.962582",
+    "goal": "gather_food",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:27:29.254754",
+    "goal": "open_crafting_menu",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:29:40.074204",
+    "goal": "open_crafting_menu",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:59:12.412922",
+    "goal": "gather_food",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T16:59:47.669670",
+    "goal": "explore_area",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T17:09:41.583026",
+    "goal": "open_crafting_menu",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T17:10:03.997631",
+    "goal": "open_crafting_menu",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T17:13:06.063650",
+    "goal": "open_crafting_menu",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": null,
+      "gather_info": null
+    }
+  },
+  {
+    "timestamp": "2025-05-06T17:15:51.851091",
+    "goal": "build_shelter",
+    "steps": [
+      "gather_wood",
+      "craft_planks",
+      "place_walls",
+      "place_roof"
+    ],
+    "results": {
+      "gather_wood": false,
+      "craft_planks": null,
+      "place_walls": null,
+      "place_roof": null
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:01:04.891441",
+    "goal": "explore_area",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:01:40.116619",
+    "goal": "explore_area",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:09:23.326028",
+    "goal": "explore_area",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:09:28.315086",
+    "goal": "explore_area",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:09:33.326153",
+    "goal": "explore_area",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:09:38.066772",
+    "goal": "build_shelter",
+    "steps": [
+      "gather_wood",
+      "craft_planks",
+      "place_walls",
+      "place_roof"
+    ],
+    "results": {
+      "gather_wood": false,
+      "craft_planks": false,
+      "place_walls": false,
+      "place_roof": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:12:12.011183",
+    "goal": "build_shelter",
+    "steps": [
+      "gather_wood",
+      "craft_planks",
+      "place_walls",
+      "place_roof"
+    ],
+    "results": {
+      "gather_wood": false,
+      "craft_planks": false,
+      "place_walls": false,
+      "place_roof": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:15:28.201596",
+    "goal": "explore_area",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:18:30.698422",
+    "goal": "open_crafting_menu",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:21:31.843502",
+    "goal": "gather_food",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:24:30.928416",
+    "goal": "build_shelter",
+    "steps": [
+      "gather_wood",
+      "craft_planks",
+      "place_walls",
+      "place_roof"
+    ],
+    "results": {
+      "gather_wood": false,
+      "craft_planks": false,
+      "place_walls": false,
+      "place_roof": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:31:13.587018",
+    "goal": "explore_area",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": null
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:39:04.014569",
+    "goal": "open_crafting_menu",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:39:09.016105",
+    "goal": "open_crafting_menu",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:39:13.726299",
+    "goal": "gather_food",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:39:18.952883",
+    "goal": "explore_area",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:39:24.210064",
+    "goal": "open_crafting_menu",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:39:28.943355",
+    "goal": "explore_area",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:39:33.674320",
+    "goal": "explore_area",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:39:38.357044",
+    "goal": "gather_food",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:39:43.065582",
+    "goal": "open_crafting_menu",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:39:47.748840",
+    "goal": "open_crafting_menu",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:39:52.437664",
+    "goal": "gather_food",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:39:57.153733",
+    "goal": "gather_food",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:40:01.837736",
+    "goal": "open_crafting_menu",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:40:06.531325",
+    "goal": "build_shelter",
+    "steps": [
+      "gather_wood",
+      "craft_planks",
+      "place_walls",
+      "place_roof"
+    ],
+    "results": {
+      "gather_wood": false,
+      "craft_planks": false,
+      "place_walls": false,
+      "place_roof": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:41:08.483428",
+    "goal": "open_crafting_menu",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:41:13.180083",
+    "goal": "explore_area",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:41:18.155001",
+    "goal": "build_shelter",
+    "steps": [
+      "gather_wood",
+      "craft_planks",
+      "place_walls",
+      "place_roof"
+    ],
+    "results": {
+      "gather_wood": false,
+      "craft_planks": false,
+      "place_walls": false,
+      "place_roof": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:42:10.563238",
+    "goal": "gather_food",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:42:15.433547",
+    "goal": "gather_food",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:42:20.639154",
+    "goal": "open_crafting_menu",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:42:25.509549",
+    "goal": "gather_food",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:42:30.391073",
+    "goal": "gather_food",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:42:35.338193",
+    "goal": "build_shelter",
+    "steps": [
+      "gather_wood",
+      "craft_planks",
+      "place_walls",
+      "place_roof"
+    ],
+    "results": {
+      "gather_wood": false,
+      "craft_planks": true,
+      "place_walls": true,
+      "place_roof": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:43:11.371610",
+    "goal": "open_crafting_menu",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": true,
+      "gather_info": null
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:43:17.304753",
+    "goal": "build_shelter",
+    "steps": [
+      "gather_wood",
+      "craft_planks",
+      "place_walls",
+      "place_roof"
+    ],
+    "results": {
+      "gather_wood": false,
+      "craft_planks": false,
+      "place_walls": false,
+      "place_roof": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:44:01.035114",
+    "goal": "open_crafting_menu",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:44:25.307696",
+    "goal": "explore_area",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:44:45.266044",
+    "goal": "explore_area",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:45:06.395110",
+    "goal": "explore_area",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:45:32.571583",
+    "goal": "explore_area",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:46:00.001487",
+    "goal": "open_crafting_menu",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": null,
+      "gather_info": null
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:46:14.690321",
+    "goal": "gather_food",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": false
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:46:41.449533",
+    "goal": "build_shelter",
+    "steps": [
+      "gather_wood",
+      "craft_planks",
+      "place_walls",
+      "place_roof"
+    ],
+    "results": {
+      "gather_wood": false,
+      "craft_planks": null,
+      "place_walls": null,
+      "place_roof": null
+    }
+  },
+  {
+    "timestamp": "2025-05-06T18:55:57.379102",
+    "goal": "build_shelter",
+    "steps": [
+      "gather_wood",
+      "craft_planks",
+      "place_walls",
+      "place_roof"
+    ],
+    "results": {
+      "gather_wood": false,
+      "craft_planks": null,
+      "place_walls": null,
+      "place_roof": null
+    }
+  },
+  {
+    "timestamp": "2025-05-06T19:05:05.863125",
+    "goal": "open_crafting_menu",
+    "steps": [
+      "look_around",
+      "gather_info"
+    ],
+    "results": {
+      "look_around": false,
+      "gather_info": null
+    }
+  },
+  {
+    "timestamp": "2025-05-06T21:50:08.406743",
+    "goal": "gather_wood",
+    "steps": [
+      "walk_to_tree",
+      "punch_tree",
+      "collect_log"
+    ],
+    "results": {
+      "walk_to_tree": false,
+      "punch_tree": true,
+      "collect_log": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T21:50:21.543877",
+    "goal": "gather_wood",
+    "steps": [
+      "walk_to_tree",
+      "punch_tree",
+      "collect_log"
+    ],
+    "results": {
+      "walk_to_tree": false,
+      "punch_tree": true,
+      "collect_log": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T21:50:59.801422",
+    "goal": "gather_wood",
+    "steps": [
+      "walk_to_tree",
+      "punch_tree",
+      "collect_log"
+    ],
+    "results": {
+      "walk_to_tree": false,
+      "punch_tree": true,
+      "collect_log": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T21:51:12.887598",
+    "goal": "gather_wood",
+    "steps": [
+      "walk_to_tree",
+      "punch_tree",
+      "collect_log"
+    ],
+    "results": {
+      "walk_to_tree": false,
+      "punch_tree": true,
+      "collect_log": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T21:51:25.907101",
+    "goal": "gather_wood",
+    "steps": [
+      "walk_to_tree",
+      "punch_tree",
+      "collect_log"
+    ],
+    "results": {
+      "walk_to_tree": false,
+      "punch_tree": true,
+      "collect_log": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T21:51:38.922219",
+    "goal": "gather_wood",
+    "steps": [
+      "walk_to_tree",
+      "punch_tree",
+      "collect_log"
+    ],
+    "results": {
+      "walk_to_tree": false,
+      "punch_tree": true,
+      "collect_log": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T21:51:51.966244",
+    "goal": "gather_wood",
+    "steps": [
+      "walk_to_tree",
+      "punch_tree",
+      "collect_log"
+    ],
+    "results": {
+      "walk_to_tree": false,
+      "punch_tree": true,
+      "collect_log": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T21:52:04.999977",
+    "goal": "gather_wood",
+    "steps": [
+      "walk_to_tree",
+      "punch_tree",
+      "collect_log"
+    ],
+    "results": {
+      "walk_to_tree": false,
+      "punch_tree": true,
+      "collect_log": true
+    }
+  },
+  {
+    "timestamp": "2025-05-06T21:52:17.983974",
+    "goal": "gather_wood",
+    "steps": [
+      "walk_to_tree",
+      "punch_tree",
+      "collect_log"
+    ],
+    "results": {
+      "walk_to_tree": false,
+      "punch_tree": true,
+      "collect_log": null
+    }
+  }
+]
