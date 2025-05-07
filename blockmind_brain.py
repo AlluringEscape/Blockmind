@@ -218,6 +218,17 @@ class BlockmindBrain:
             print(f"⚠️ Memory save failed: {e}")
 
     
+    def load_from_disk(self):
+        try:
+            if os.path.exists(self.memory_file):
+                with open(self.memory_file, "r") as f:
+                    self.memory = json.load(f)
+            else:
+                self.memory = []
+        except Exception as e:
+            print(f"⚠️ Failed to load memory: {e}")
+            self.memory = []
+
     def think_and_act(self, frame):
         try:
             print("🧠 Analyzing scene...")
