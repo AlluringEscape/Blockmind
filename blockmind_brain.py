@@ -217,7 +217,31 @@ class BlockmindBrain:
         except Exception as e:
             print(f"⚠️ Memory save failed: {e}")
 
-    def load_from_disk(self):
+    
+    def think_and_act(self, frame):
+        try:
+            print("🧠 Analyzing scene...")
+            scene = analyze_frame(frame)
+            print(f"🌍 Scene detected: {scene}")
+
+            goal = self.task_planner.choose_goal(scene)
+            if not goal:
+                print("❌ No valid goal found.")
+                return
+
+            print(f"🎯 Chosen goal: {goal}")
+            actions = self.task_planner.plan(goal)
+            print(f"🪛 Planned actions: {actions}")
+
+            for action in actions:
+                result = blockmind_actions.perform_action(action)
+                print(f"✅ Action result: {result}")
+                # You can add memory logging here if desired
+
+        except Exception as e:
+            print(f"❗ Error in think_and_act: {e}")
+
+def load_from_disk(self):
         try:
             if os.path.exists(self.memory_file):
                 with open(self.memory_file, "r") as f:
