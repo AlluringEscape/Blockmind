@@ -82,6 +82,8 @@ def analyze_frame(frame):
     
     # === High-level summary detection ===
     summary = {
+        "entity_aliases": ["sheep", "cow", "pig", "chicken"],
+        "flower_colors": [(140, 0, 140), (255, 255, 255), (255, 0, 0)],
         "tree": False,
         "tree_aliases": ["tree", "log", "wood", "tree_center_pixel"],
         "cave": False,
@@ -91,10 +93,16 @@ def analyze_frame(frame):
     }
 
     for entity in scene["entities"]:
+        if any(alias in entity["label"].lower() for alias in summary["entity_aliases"]):
+            summary["animal"] = True
         if "sheep" in entity["label"] or "cow" in entity["label"] or "pig" in entity["label"]:
             summary["animal"] = True
 
     for block in scene["blocks"]:
+        avg_color = np.array(block["color"])
+        for flower_color in summary["flower_colors"]:
+            if np.linalg.norm(avg_color - np.array(flower_color)) < 50:
+                summary["flower"] = True
         if any(alias in block["label"].lower() for alias in summary["tree_aliases"]):
             summary["tree"] = True
         if "log" in block["label"] or "wood" in block["label"]:
@@ -109,6 +117,9 @@ def analyze_frame(frame):
         summary["sky"] = True
 
     del summary["tree_aliases"]
+    del summary["tree_aliases"]
+    del summary["entity_aliases"]
+    del summary["flower_colors"]
     scene["summary"] = summary
 
     return scene
