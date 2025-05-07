@@ -1,32 +1,51 @@
 import pyautogui
 import time
+import random
 from pynput import keyboard
 
 class ActionHandler:
     def __init__(self):
         self.keyboard = keyboard.Controller()
         self.mouse = pyautogui
+        self.window_region = (0, 0, 0, 0)
+        
+    def set_window_region(self, region):
+        self.window_region = region
         
     def execute(self, action):
-        action_type = action.get("type")
+        if action["type"] == "mine":
+            return self._execute_mine(action)
+        return self._execute_explore()
+    
+    def _execute_mine(self, action):
+        if not action.get("center"):
+            return {"status": "no_target"}
+            
+        # Convert to absolute screen coordinates
+        abs_x = self.window_region[0] + action["center"][0]
+        abs_y = self.window_region[1] + action["center"][1]
         
-        if action_type == "mine":
-            return self.mine(action.get("target"))
-        elif action_type == "explore":
-            return self.move_random()
-        return {"status": "unknown_action"}
-    
-    def mine(self, target):
-        # Calculate mining time based on target
-        duration = 2.0 if target == "tree" else 3.0
-        pyautogui.mouseDown(button='left')
+        # Move and click
+        self.mouse.moveTo(abs_x, abs_y, duration=0.3)
+        time.sleep(0.2)
+        
+        duration = 2.5 if action["target"] == "tree" else 4.0
+        self.mouse.mouseDown()
         time.sleep(duration)
-        pyautogui.mouseUp()
-        return {"status": "mined", "item": target}
+        self.mouse.mouseUp()
+        return {"status": "mined", "item": action["target"]}
     
-    def move_random(self):
-        directions = ['w', 'a', 's', 'd']
-        self.keyboard.press(random.choice(directions))
-        time.sleep(1.0)
-        self.keyboard.release(random.choice(directions))
-        return {"status": "moved"}
+    def _execute_explore(self):
+        # Move forward with random turns
+        self.keyboard.press('w')
+        move_duration = random.uniform(1.0, 2.5)
+        time.sleep(move_duration)
+        self.keyboard.release('w')
+        
+        # Random horizontal look
+        self.mouse.move(
+            random.choice([100, -100]), 
+            0, 
+            duration=0.5
+        )
+        return {"status": "exploring"}

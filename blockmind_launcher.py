@@ -1,47 +1,60 @@
-from blockmind_window_capture import capture_game_window
-from blockmind_vision import detect_objects
-from blockmind_brain import BlockmindBrain
-from blockmind_actions import ActionHandler
-from survival_brain import SurvivalPlanner
 import time
+import threading
+import cv2
+from blockmind_window_capture import ThreadSafeCapturer
+from blockmind_vision import process_frame
 
-class BlockmindCore:
+class VisionCore:
     def __init__(self):
-        self.brain = BlockmindBrain()
-        self.actions = ActionHandler()
-        self.survival = SurvivalPlanner()
-        self.inventory = []
+        self.capturer = ThreadSafeCapturer()
+        self.running = True
+        self.current_frame = None
         
-    def run(self):
-        while True:
-            # Capture game state
-            frame, region = capture_game_window()
-            if frame is None:
-                time.sleep(1)
-                continue
+    def capture_loop(self):
+        print("🔄 Capture loop started")
+        while self.running:
+            start = time.perf_counter()
+            frame = self.capturer.capture_frame()
+            
+            if frame is not None:
+                print(f"🎮 New frame captured: {frame.shape}")
+                self.current_frame = process_frame(frame)
                 
-            # Analyze environment
-            vision_data = detect_objects(frame)
-            game_state = {
-                "detections": vision_data["detections"],
-                "inventory": self.inventory
-            }
+            sleep_time = max(1/60 - (time.perf_counter() - start), 0)
+            time.sleep(sleep_time)
+
+def main():
+    core = VisionCore()
+    capture_thread = threading.Thread(target=core.capture_loop)
+    capture_thread.start()
+    
+    try:
+        print("""
+        🔧 Debug Checklist:
+        1. Minecraft window visible and not minimized
+        2. Game in 3rd person view (F5 twice)
+        3. FOV set to Normal (Options > Video Settings)
+        4. Standing near trees/stone
+        """)
+        
+        while True:
+            if core.current_frame:
+                # Corrected print statement
+                print(f"🌳 Detected: {len(core.current_frame['detections'])} objects")
+        
+                if core.current_frame['debug_frame'] is not None:
+                    cv2.imshow('Debug View', core.current_frame['debug_frame'])
+                    if cv2.waitKey(1) & 0xFF == ord('q'):
+                        break
+            time.sleep(0.1)
             
-            # Make decisions
-            goal = self.survival.choose_goal(game_state)
-            self.brain.update_goal(goal)
-            action = self.brain.decide_action(game_state)
-            
-            # Execute action
-            result = self.actions.execute(action)
-            print(f"Performed {action}: {result}")
-            
-            # Update inventory
-            if result.get("item"):
-                self.inventory.append(result["item"])
-            
-            time.sleep(0.5)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        core.running = False
+        capture_thread.join()
+        cv2.destroyAllWindows()
+        print("🛑 System shutdown")
 
 if __name__ == "__main__":
-    bot = BlockmindCore()
-    bot.run()
+    main()

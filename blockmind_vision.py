@@ -1,44 +1,40 @@
 import cv2
 import numpy as np
 
-def detect_objects(frame):
-    # Convert to HSV color space
-    hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
+def process_frame(frame):
+    if frame is None:
+        return {"detections": [], "debug_frame": None}
+
+    # Convert RGBA to BGR and handle alpha channel
+    if frame.shape[2] == 4:
+        frame = cv2.cvtColor(frame, cv2.COLOR_RGBA2BGR)
     
-    # Detect trees (green)
-    lower_green = np.array([35, 50, 50])
-    upper_green = np.array([85, 255, 255])
-    green_mask = cv2.inRange(hsv, lower_green, upper_green)
+    # Resize for faster processing (maintain aspect ratio)
+    height, width = frame.shape[:2]
+    processed = cv2.resize(frame, (1280, int(1280 * height/width)))
     
-    # Detect stone (gray)
-    lower_gray = np.array([0, 0, 50])
-    upper_gray = np.array([179, 50, 200])
-    gray_mask = cv2.inRange(hsv, lower_gray, upper_gray)
+    # Enhanced tree detection parameters for your resolution
+    hsv = cv2.cvtColor(processed, cv2.COLOR_BGR2HSV)
+    lower_green = np.array([25, 60, 30], dtype=np.uint8)
+    upper_green = np.array([95, 255, 220], dtype=np.uint8)
+    mask = cv2.inRange(hsv, lower_green, upper_green)
     
-    # Find contours
+    # Visual debugging
+    debug_frame = processed.copy()
+    contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     detections = []
     
-    # Detect trees
-    contours, _ = cv2.findContours(green_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     for cnt in contours:
-        x, y, w, h = cv2.boundingRect(cnt)
-        detections.append({
-            "label": "tree",
-            "box": [x, y, x+w, y+h],
-            "confidence": 0.9
-        })
-    
-    # Detect stone
-    contours, _ = cv2.findContours(gray_mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-    for cnt in contours:
-        x, y, w, h = cv2.boundingRect(cnt)
-        detections.append({
-            "label": "stone",
-            "box": [x, y, x+w, y+h],
-            "confidence": 0.8
-        })
+        if cv2.contourArea(cnt) > 500:
+            x,y,w,h = cv2.boundingRect(cnt)
+            detections.append({
+                "label": "tree",
+                "box": [x,y,x+w,y+h],
+                "confidence": cv2.contourArea(cnt)/10000
+            })
+            cv2.rectangle(debug_frame, (x,y), (x+w,y+h), (0,255,0), 2)
     
     return {
         "detections": detections,
-        "frame_size": frame.shape[:2]
+        "debug_frame": debug_frame
     }
