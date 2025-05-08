@@ -1,51 +1,54 @@
+# blockmind_launcher.py
 import time
-import threading
 import cv2
-import numpy as np
-from blockmind_window_capture import ThreadSafeCapturer
-from blockmind_vision import process_frame
+from blockmind_window_capture import capture_game_window
+from blockmind_vision import analyze_frame
+from config_loader import load_profile
+from blockmind_brain import BlockmindBrain
+from blockmind_actions import ActionHandler
 
-class VisionCore:
-    def __init__(self):
-        self.capturer = ThreadSafeCapturer()
-        self.running = True
-        self.current_frame = None
-        
-    def capture_loop(self):
-        while self.running:
-            frame = self.capturer.capture_frame()
-            if frame is not None:
-                self.current_frame = process_frame(frame)
-            time.sleep(1/60)
+print("🧠 Blockmind Autopilot: Vision + Brain Debug Mode")
 
-def main():
-    core = VisionCore()
-    capture_thread = threading.Thread(target=core.capture_loop)
-    capture_thread.start()
-    
-    # Initialize window first
-    cv2.namedWindow("Debug View", cv2.WINDOW_NORMAL)
-    cv2.resizeWindow("Debug View", 1280, 720)
-    cv2.moveWindow("Debug View", 100, 100)
-    
-    try:
-        while True:
-            debug_frame = np.zeros((720, 1280, 3), dtype=np.uint8)
-            
-            if core.current_frame and core.current_frame["debug_frame"] is not None:
-                debug_frame = cv2.resize(core.current_frame["debug_frame"], (1280, 720))
-            
-            cv2.imshow("Debug View", debug_frame)
-            
-            # Exit on Q press
+profile = load_profile("profile.yaml") or {}
+brain = BlockmindBrain(profile)
+actions = ActionHandler()
+
+try:
+    while True:
+        try:
+            result = capture_game_window()
+
+            if isinstance(result, tuple) and len(result) >= 2:
+                frame, window_region = result[0], result[1]
+            else:
+                frame, window_region = result, None
+
+            context, processed_frame = analyze_frame(frame)
+            print("👁️ Vision Context:", context)
+
+            actions.set_window_region(window_region)
+            thought = brain.think(context)
+            print("🧠 Thought:", thought)
+
+            # Execute the action (safely handles missing fields)
+            target_block = context.get("blocks", [{}])[0]
+            result = actions.execute({
+                "type": thought.get("action", "explore"),
+                "target": target_block.get("label"),
+                "center": target_block.get("center")
+            })
+
+            # Show what the bot sees
+            cv2.imshow("Blockmind Vision", processed_frame)
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
-            
-    finally:
-        core.running = False
-        capture_thread.join()
-        cv2.destroyAllWindows()
-        print("🛑 System shutdown")
 
-if __name__ == "__main__":
-    main()
+            time.sleep(0.2)
+
+        except Exception as e:
+            print("❌ ERROR:", e)
+            time.sleep(1)
+
+finally:
+    cv2.destroyAllWindows()
+

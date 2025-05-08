@@ -69,3 +69,10 @@ def learn_new_entity(color, profiles, interactive=False, image=None, bbox=None):
     profiles[label].append(color)
     save_profiles(profiles)
     return label
+
+def detect_entities(frame, profiles=None):
+    if profiles is None:
+        profiles = {}
+    # Add your detection logic here
+    return []
+

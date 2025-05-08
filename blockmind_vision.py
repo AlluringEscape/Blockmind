@@ -1,43 +1,39 @@
 import cv2
-import numpy as np
+from block_learner import detect_blocks, load_block_profiles
+from entity_learner import detect_entities, load_profiles as load_entity_profiles
+from item_learner import predict_item, load_item_profiles
 
-OBJECT_RANGES = {
-    "tree": {
-        "lower": np.array([25, 80, 40]),   # Hue, Saturation, Value
-        "upper": np.array([95, 255, 200]),  # Adjusted for proper BGR conversion
-        "color": (0, 255, 0)  # Green in BGR format
+
+def analyze_frame(frame):
+    block_profiles = load_block_profiles()
+    entity_profiles = load_entity_profiles()
+    item_profiles = load_item_profiles()
+
+    results = {
+        "blocks": detect_blocks(frame, block_profiles),
+        "entities": detect_entities(frame, entity_profiles),
+        "items": predict_item(frame, item_profiles),
     }
-}
 
-def process_frame(frame):
-    try:
-        if frame is None or frame.size == 0:
-            return {"detections": [], "debug_frame": np.zeros((480, 640, 3), dtype=np.uint8)}
-        
-        # Frame is already in BGR format from capture
-        debug_frame = frame.copy()
-        hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)  # Correct conversion path
-        
-        detections = []
-        for obj_name, params in OBJECT_RANGES.items():
-            mask = cv2.inRange(hsv, params["lower"], params["upper"])
-            contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-            
-            for cnt in contours:
-                if cv2.contourArea(cnt) > 300:
-                    x, y, w, h = cv2.boundingRect(cnt)
-                    detections.append({
-                        "label": obj_name,
-                        "box": [x, y, x+w, y+h],
-                        "confidence": cv2.contourArea(cnt)/10000
-                    })
-                    cv2.rectangle(debug_frame, (x,y), (x+w,y+h), params["color"], 2)
-        
-        return {
-            "detections": detections,
-            "debug_frame": debug_frame  # Already in correct BGR format
-        }
-    
-    except Exception as e:
-        print(f"Vision error: {str(e)}")
-        return {"detections": [], "debug_frame": frame if frame is not None else np.zeros((480, 640, 3), dtype=np.uint8)}
+    # Optional debug visualization
+    debug_frame = frame.copy()
+    for b in results["blocks"]:
+        if "box" in b and "label" in b:
+            cv2.rectangle(debug_frame, b["box"][:2], b["box"][2:], (0, 255, 0), 2)
+            cv2.putText(debug_frame, b["label"], (b["box"][0], b["box"][1] - 10),
+                        cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 1)
+
+    for e in results["entities"]:
+        if "box" in e and "label" in e:
+            cv2.rectangle(debug_frame, e["box"][:2], e["box"][2:], (255, 0, 0), 2)
+            cv2.putText(debug_frame, e["label"], (e["box"][0], e["box"][1] - 10),
+                        cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 1)
+
+    for i in results["items"]:
+        if "box" in i and "label" in i:
+            cv2.rectangle(debug_frame, i["box"][:2], i["box"][2:], (0, 0, 255), 2)
+            cv2.putText(debug_frame, i["label"], (i["box"][0], i["box"][1] - 10),
+                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 1)
+
+
+    return results, debug_frame

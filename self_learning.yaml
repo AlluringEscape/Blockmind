@@ -1,0 +1,40 @@
+# config/self_learning.yaml
+learning:
+  exploration_rate: 0.3      # Initial randomness (30%)
+  min_exploration: 0.05      # Minimum randomness
+  exploration_decay: 0.995   # Reduce exploration daily
+  learning_rate: 0.1         # How fast to update Q-values
+  discount_factor: 0.9       # Importance of future rewards
+
+rewards:
+  wood_collected: 8.0
+  stone_collected: 10.0
+  damage_taken: -15.0
+  death: -50.0
+  successful_craft: 12.0
+  exploration_step: 0.5
+
+model:
+  save_interval: 100         # Save every 100 actions
+  qtable_file: "qtable.json"
+
+survival:
+  health_threshold: 8        # Seek food if health < 8
+  hunger_threshold: 6        # Seek food if hunger < 6
+
+vision:
+  target_colors:
+    tree:
+      lower: [25, 80, 40]
+      upper: [95, 255, 200]
+      color: [0, 255, 0]  # BGR format
+    stone:
+      lower: [0, 0, 50]
+      upper: [179, 50, 150]
+      color: [128, 128, 128]
+
+actions:
+  mine_durations:
+    wood: 2.5
+    stone: 4.0
+  move_duration_range: [1.0, 3.0]

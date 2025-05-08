@@ -5,6 +5,9 @@ import win32con
 import threading
 import cv2
 import os
+import pygetwindow as gw
+import pyautogui
+
 
 class ThreadSafeCapturer:
     def __init__(self):
@@ -64,3 +67,11 @@ class ThreadSafeCapturer:
         except Exception as e:
             print(f"Capture error: {str(e)}")
             return None
+
+def capture_game_window():
+    with mss.mss() as sct:
+        monitor = sct.monitors[1]  # Or a specific window region
+        sct_img = sct.grab(monitor)
+        frame = np.array(sct_img)
+        frame = cv2.cvtColor(frame, cv2.COLOR_BGRA2BGR)
+        return frame, monitor
