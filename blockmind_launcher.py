@@ -23,26 +23,22 @@ def main():
     capture_thread = threading.Thread(target=core.capture_loop)
     capture_thread.start()
     
-    # Force create window first
+    # Initialize window first
     cv2.namedWindow("Debug View", cv2.WINDOW_NORMAL)
     cv2.resizeWindow("Debug View", 1280, 720)
     cv2.moveWindow("Debug View", 100, 100)
     
     try:
         while True:
-            debug_frame = None
+            debug_frame = np.zeros((720, 1280, 3), dtype=np.uint8)
             
             if core.current_frame and core.current_frame["debug_frame"] is not None:
-                debug_frame = core.current_frame["debug_frame"]
-            else:
-                debug_frame = np.zeros((720, 1280, 3), dtype=np.uint8)
+                debug_frame = cv2.resize(core.current_frame["debug_frame"], (1280, 720))
             
-            # Force window update
             cv2.imshow("Debug View", debug_frame)
-            key = cv2.waitKey(1)
             
             # Exit on Q press
-            if key == ord('q'):
+            if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
             
     finally:

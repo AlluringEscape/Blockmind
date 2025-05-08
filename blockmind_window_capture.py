@@ -19,7 +19,6 @@ class ThreadSafeCapturer:
         return self.local.mss
         
     def _update_monitor(self):
-        # Find any window containing "Minecraft" in title
         def callback(hwnd, hwnds):
             if 'Minecraft' in win32gui.GetWindowText(hwnd):
                 hwnds.append(hwnd)
@@ -41,27 +40,27 @@ class ThreadSafeCapturer:
             if self.debug_mode:
                 print(f"🔍 Window found: {win32gui.GetWindowText(hwnd)}")
                 print(f"📐 Monitor region: {self.monitor}")
-        else:
-            print("❌ No Minecraft window found with 'Minecraft' in title!")
     
     def capture_frame(self):
-        self._update_monitor()  # Force update every frame
+        self._update_monitor()
         
-        if not self.monitor or self.monitor["width"] <= 0 or self.monitor["height"] <= 0:
-            print("⚠️ Invalid capture region, check window visibility!")
+        if not self.monitor or self.monitor["width"] <= 0:
             return None
             
         try:
             sct = self._get_mss_instance()
             frame = np.array(sct.grab(self.monitor))
             
+            # Convert BGRA to BGR
+            if frame.shape[2] == 4:
+                frame = cv2.cvtColor(frame, cv2.COLOR_BGRA2BGR)  # Fixed conversion
+                
             if self.debug_mode:
-                output_path = os.path.abspath("last_capture.png")
-                cv2.imwrite(output_path, frame)
-                print(f"📸 Saved debug capture to: {output_path}")
-                print(f"📏 Frame dimensions: {frame.shape}")
+                debug_frame = frame.copy()
+                cv2.imwrite("last_capture_corrected.png", debug_frame)
+                print("📸 Saved color-corrected screenshot")
                 
             return frame
         except Exception as e:
-            print(f"🚨 Capture failed: {str(e)}")
+            print(f"Capture error: {str(e)}")
             return None

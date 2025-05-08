@@ -3,27 +3,22 @@ import numpy as np
 
 OBJECT_RANGES = {
     "tree": {
-        "lower": np.array([25, 80, 40]),
-        "upper": np.array([95, 255, 200]),
-        "color": (0, 255, 0)
+        "lower": np.array([25, 80, 40]),   # Hue, Saturation, Value
+        "upper": np.array([95, 255, 200]),  # Adjusted for proper BGR conversion
+        "color": (0, 255, 0)  # Green in BGR format
     }
 }
 
 def process_frame(frame):
-    debug_frame = None
-    detections = []
-    
     try:
         if frame is None or frame.size == 0:
             return {"detections": [], "debug_frame": np.zeros((480, 640, 3), dtype=np.uint8)}
         
-        # Convert RGBA to BGR if needed
-        if frame.shape[2] == 4:
-            frame = cv2.cvtColor(frame, cv2.COLOR_RGBA2BGR)
-        
+        # Frame is already in BGR format from capture
         debug_frame = frame.copy()
-        hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
+        hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)  # Correct conversion path
         
+        detections = []
         for obj_name, params in OBJECT_RANGES.items():
             mask = cv2.inRange(hsv, params["lower"], params["upper"])
             contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
@@ -40,9 +35,9 @@ def process_frame(frame):
         
         return {
             "detections": detections,
-            "debug_frame": debug_frame
+            "debug_frame": debug_frame  # Already in correct BGR format
         }
     
     except Exception as e:
         print(f"Vision error: {str(e)}")
-        return {"detections": [], "debug_frame": np.zeros((480, 640, 3), dtype=np.uint8)}
+        return {"detections": [], "debug_frame": frame if frame is not None else np.zeros((480, 640, 3), dtype=np.uint8)}
